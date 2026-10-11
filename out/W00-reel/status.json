@@ -8,5 +8,10 @@
     "ok": true,
     "file": "out/W00-reel/clinic_tour_mr.wav",
     "at": "2026-10-11 07:27 UTC"
+  },
+  "clinic_tour_mr_v2": {
+    "ok": true,
+    "file": "out/W00-reel/clinic_tour_mr_v2.wav",
+    "at": "2026-10-11 07:39 UTC"
   }
 }
