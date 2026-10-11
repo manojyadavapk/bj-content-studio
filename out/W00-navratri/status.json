@@ -1,0 +1,17 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": "veo-3.1-fast-generate-preview"
+  },
+  "navratri_bg_emerald": {
+    "ok": true,
+    "file": "out/W00-navratri/navratri_bg_emerald.png",
+    "at": "2026-10-11 09:05 UTC"
+  },
+  "navratri_bg_maroon": {
+    "ok": true,
+    "file": "out/W00-navratri/navratri_bg_maroon.png",
+    "at": "2026-10-11 09:05 UTC"
+  }
+}
