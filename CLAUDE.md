@@ -23,9 +23,15 @@
 - Veo garbles signboard and label text as the camera moves in. Use only the first 3–4 seconds of a push-in, or shots without close-up text.
 - Push ONE brief per commit and wait for its results. A second brief pushed while a run is in progress can be skipped; if that happens, touch the brief (add `"run": N`) and push again.
 - REAL PATIENT FOOTAGE NEVER GOES IN THIS PUBLIC REPO OR TO GEMINI. Edit clinic videos that show patients locally (ffmpeg in Claude's sandbox), and post them only after Dr Yadav confirms the patients' written consent.
-- Posters (Dr Yadav's decision, 11 Oct 2026: "make it coherent or delegate to Gemini"): GEMINI DESIGNS THE WHOLE POSTER, text included. Do NOT assemble posters from separate text boxes in Canva.
-  - refs: inputs/style-ref-navratri.jpg (style and quality target), inputs/dr-front.jpg, inputs/dr-three-quarter.jpg, inputs/bj-logo.png; "size": "2K", aspect 4:5.
-  - Give the EXACT text to use, line by line (title, Marathi line, message, addresses, phones +91 87665 22099 / +91 92702 84859, www.bonesnjointsclinic.com), and say "no other text".
-  - Ask for an empty white rounded square (about 14% of the width) in the bottom-right, labelled "Scan to save contact", with no QR pattern inside.
-  - Make 2 variants. PROOFREAD every word, phone digit and the Marathi at full size. Reject any variant with an error (e.g. a duplicated line, "Orthopadic"), or fix it with an edit pass that uses the poster itself as a ref.
-  - Paste the real QR (inputs/qr-card.png) into the detected white square with PIL, then verify it decodes with zxingcpp. Example: out/W00-poster/diwali_poster_b.png.
+- POSTERS (Dr Yadav, 11 Oct 2026). Earlier attempts were rejected for two reasons: text boxes pasted on a picture looked incoherent, and Gemini-drawn posters CHANGED HIS FACIAL FEATURES. The approved method:
+  1. Gemini makes ONLY a people-free, text-free background (e.g. out/W00-bg/diwali_bg_navy.png), with calm space on one side.
+  2. Use his REAL photo, never an AI-drawn face. Cut out inputs/dr-front.jpg locally with rembg (`pip install "rembg[cpu]"`, model isnet-general-use with alpha matting). birefnet-portrait runs out of memory.
+  3. Composite locally with PIL so it looks photographed in the scene. See tools/compose_poster_diwali_example.py:
+     - warm colour-match plus left-to-right light falloff on the photo
+     - golden rim light and a soft glow behind him
+     - the diya/flower row re-layered IN FRONT of his coat, so the photo's bottom crop is hidden
+     - the cropped shoulder edge faded out; alpha eroded 1px to remove the grey hair fringe
+     - he stays on the right, never overlapping the text column (x < 520)
+  4. Typography: Playfair Display (gold gradient) for the greeting, Mukta for Marathi, Poppins for everything else. Glass navy info panel at the bottom with a gold hairline, both phones, website, handle, and the real QR (inputs/qr-card.png) on a white card.
+  5. Proofread, verify the QR decodes, then upload the PNG to Canva and to Drive 05 Ready to post.
+  Approved example: out/W00-poster/diwali_final_real_photo.png
