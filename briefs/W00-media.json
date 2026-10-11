@@ -1,0 +1,26 @@
+{
+  "week": "W00-media",
+  "images": [
+    {
+      "id": "storefront_clean",
+      "aspect": "3:4",
+      "refs": ["inputs/nallasopara-storefront.jpg"],
+      "prompt": "Edit this photo of a real clinic front. Remove the dog lying on the pavement and any litter, and tidy the pavement. Keep everything else exactly as it is: the same building, the same glass front, the same reception inside, and the signboard text letter-for-letter unchanged (do not redraw, translate or invent any text). Gently improve the photo: a warm, welcoming evening glow, slightly sharper, balanced exposure, natural colours. Photorealistic, no added people, no added text."
+    },
+    {
+      "id": "doctor_festive_art",
+      "aspect": "4:5",
+      "refs": ["inputs/dr-front.jpg", "inputs/dr-three-quarter.jpg"],
+      "prompt": "Create a premium, photorealistic festive Diwali poster background featuring this exact man from the reference photos, keeping his face, beard, hair and skin tone identical. He is an orthopaedic surgeon in a crisp white doctor's coat over a light blue shirt, arms crossed, warm confident smile, standing on the left third of the frame from the waist up. Right side: elegant brass diyas with soft flames, marigold flowers, a rangoli pattern, soft golden bokeh, with mint green and deep navy accents. Keep the right-middle area and the bottom 35% calm and uncluttered for text to be added later. One continuous full-bleed scene, no bands, borders or panels. No text, no letters, no logos, no name badge."
+    }
+  ],
+  "videos": [
+    {
+      "id": "storefront_dollyin",
+      "image": "out/W00-media/storefront_clean.png",
+      "aspect": "9:16",
+      "seconds": 8,
+      "prompt": "Slow, smooth cinematic dolly-in toward the clinic's glass entrance on a calm evening, the signboard and interior lights glowing warmly, steady camera, gentle natural motion only. Keep the signboard text exactly unchanged. No new people, no text overlays."
+    }
+  ]
+}

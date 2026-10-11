@@ -36,7 +36,7 @@ def list_models():
     while True:
         r = call(f"models?pageSize=200{'&pageToken=' + token if token else ''}", method="GET")
         names += [m["name"].split("/", 1)[1] for m in r.get("models", [])
-                  if "generateContent" in m.get("supportedGenerationMethods", [])]
+                  if {"generateContent", "predictLongRunning"} & set(m.get("supportedGenerationMethods", []))]
         token = r.get("nextPageToken", "")
         if not token:
             return names
@@ -59,8 +59,47 @@ def inline_parts(resp):
                 yield p["inlineData"]
 
 
+def inline_file(path):
+    mime = "image/png" if path.lower().endswith(".png") else "image/jpeg"
+    return {"inlineData": {"mimeType": mime, "data": base64.b64encode(open(path, "rb").read()).decode()}}
+
+
+def make_video(model, item, path):
+    inst = {"prompt": item["prompt"]}
+    if item.get("image"):
+        d = inline_file(item["image"])["inlineData"]
+        inst["image"] = {"bytesBase64Encoded": d["data"], "mimeType": d["mimeType"]}
+    params = {"aspectRatio": item.get("aspect", "9:16"), "durationSeconds": int(item.get("seconds", 8))}
+    if item.get("resolution"):
+        params["resolution"] = item["resolution"]
+    try:
+        op = call(f"models/{model}:predictLongRunning", {"instances": [inst], "parameters": params})
+    except RuntimeError as e:
+        if "durationSeconds" in str(e) or "resolution" in str(e):
+            op = call(f"models/{model}:predictLongRunning",
+                      {"instances": [inst], "parameters": {"aspectRatio": params["aspectRatio"]}})
+        else:
+            raise
+    for _ in range(90):  # up to ~15 min
+        if op.get("done"):
+            break
+        time.sleep(10)
+        op = call(op["name"], method="GET")
+    if "error" in op:
+        raise RuntimeError("video error: " + json.dumps(op["error"])[:600])
+    resp = op.get("response", {})
+    samples = resp.get("generateVideoResponse", {}).get("generatedSamples") or resp.get("generatedVideos") or []
+    if not samples:
+        raise RuntimeError("no video returned: " + json.dumps(op)[:600])
+    uri = samples[0].get("video", {}).get("uri")
+    req = urllib.request.Request(uri, headers={"x-goog-api-key": KEY})
+    with urllib.request.urlopen(req, timeout=300) as r:
+        open(path, "wb").write(r.read())
+
+
 def make_image(model, item, path):
-    body = {"contents": [{"parts": [{"text": item["prompt"]}]}],
+    parts = [inline_file(r) for r in item.get("refs", [])] + [{"text": item["prompt"]}]
+    body = {"contents": [{"parts": parts}],
             "generationConfig": {"responseModalities": ["IMAGE"],
                                  "imageConfig": {"aspectRatio": item.get("aspect", "4:5")}}}
     try:
@@ -105,6 +144,7 @@ def main():
     models = list_models()
     image_model = os.environ.get("IMAGE_MODEL") or pick(models, "image", ["flash-image", "flash"])
     tts_model = os.environ.get("TTS_MODEL") or pick(models, "tts", ["flash", "pro"])
+    video_model = os.environ.get("VIDEO_MODEL") or pick(models, "veo", ["fast", "lite"])
     for brief_path in sorted(glob.glob("briefs/*.json")):
         brief = json.load(open(brief_path, encoding="utf-8"))
         week = brief["week"]
@@ -112,9 +152,10 @@ def main():
         os.makedirs(out, exist_ok=True)
         status_path = f"{out}/status.json"
         status = json.load(open(status_path)) if os.path.exists(status_path) else {}
-        status["models"] = {"image": image_model, "tts": tts_model}
+        status["models"] = {"image": image_model, "tts": tts_model, "video": video_model}
         jobs = [("image", i, f"{out}/{i['id']}.png") for i in brief.get("images", [])] + \
-               [("voice", v, f"{out}/{v['id']}.wav") for v in brief.get("voice", [])]
+               [("voice", v, f"{out}/{v['id']}.wav") for v in brief.get("voice", [])] + \
+               [("video", v, f"{out}/{v['id']}.mp4") for v in brief.get("videos", [])]
         for kind, item, path in jobs:
             if os.path.exists(path):
                 continue
@@ -122,7 +163,13 @@ def main():
                 if kind == "image":
                     if not image_model:
                         raise RuntimeError("no image model available on this key")
-                    make_image(image_model, item, path)
+                    make_image(item.get("model") or image_model, item, path)
+                elif kind == "video":
+                    if not video_model:
+                        raise RuntimeError("no Veo model available on this key")
+                    if item.get("image") and not os.path.exists(item["image"]):
+                        raise RuntimeError("start image missing: " + item["image"])
+                    make_video(item.get("model") or video_model, item, path)
                 else:
                     if not tts_model:
                         raise RuntimeError("no TTS model available on this key")
