@@ -15,3 +15,11 @@
   - Marathi or English, plain patient language.
   - Never claim to be Dr Yadav's own voice.
 - Never commit keys, patient names, photos of patients or any patient data. The repository is public.
+
+## Reference photos and video (added Oct 2026)
+- Image jobs can take `"refs": ["inputs/<file>"]`, which sends real photos to Gemini as references. `inputs/dr-front.jpg` and `inputs/dr-three-quarter.jpg` are Dr Yadav's own portraits (already public on his website). Use them for posters with his likeness, and ask Gemini to keep his face identical.
+- Video jobs go in `"videos": [{"id", "prompt", "image": "out/<week>/<img>.png", "aspect": "9:16", "seconds": 8}]` and run on Veo 3.1 Fast. Each 8-second clip costs about $0.80, so keep it to 1–2 clips a week. A start image from the same brief is made first.
+- Veo garbles signboard and label text as the camera moves in. Use only the first 3–4 seconds of a push-in, or shots without close-up text.
+- Push ONE brief per commit and wait for its results. A second brief pushed while a run is in progress can be skipped; if that happens, touch the brief (add `"run": N`) and push again.
+- REAL PATIENT FOOTAGE NEVER GOES IN THIS PUBLIC REPO OR TO GEMINI. Edit clinic videos that show patients locally (ffmpeg in Claude's sandbox), and post them only after Dr Yadav confirms the patients' written consent.
+- Posters: let Gemini make the art with no text, then add all text, logo (MAHXq0wgMyM), QR (MAHXrkbIq0I), phones and addresses in Canva, so every detail is exact. Example: Canva design DAHXr6uyJiI (Diwali 2026).
