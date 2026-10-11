@@ -1,0 +1,17 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": "veo-3.1-fast-generate-preview"
+  },
+  "diwali_bg_navy": {
+    "ok": true,
+    "file": "out/W00-bg/diwali_bg_navy.png",
+    "at": "2026-10-11 08:27 UTC"
+  },
+  "diwali_bg_cream": {
+    "ok": true,
+    "file": "out/W00-bg/diwali_bg_cream.png",
+    "at": "2026-10-11 08:27 UTC"
+  }
+}
