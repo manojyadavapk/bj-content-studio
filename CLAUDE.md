@@ -25,10 +25,9 @@
 - REAL PATIENT FOOTAGE NEVER GOES IN THIS PUBLIC REPO OR TO GEMINI. Edit clinic videos that show patients locally (ffmpeg in Claude's sandbox), and post them only after Dr Yadav confirms the patients' written consent.
 - POSTERS (Dr Yadav, 11 Oct 2026). Earlier attempts were rejected for two reasons: text boxes pasted on a picture looked incoherent, and Gemini-drawn posters CHANGED HIS FACIAL FEATURES. The approved method:
   1. Gemini makes ONLY a people-free, text-free background (e.g. out/W00-bg/diwali_bg_navy.png), with calm space on one side.
-  2. Use his REAL photo, never an AI-drawn face. His photo set (all real, white coat over a light-blue shirt):
+  2. Use his REAL photo, never an AI-drawn face. His photo set, exactly 3 photos (all real, white coat over a light-blue shirt):
      - inputs/dr-front.jpg: front, grey background, 900x1350
-     - inputs/dr-three-quarter.jpg: three-quarter, grey background, 900x1350
-     - inputs/dr-front-soft.jpg: front, slight smile, blue-green gradient background, 1254x1254
+     - inputs/dr-three-quarter.jpg: three-quarter view, slight smile, blue-green gradient background, 1254x1254
      - inputs/dr-side-profile.jpg: right-facing side profile, grey background, 1024x1536. Good for "looking toward the text" layouts: place him on the LEFT, facing the text on the right.
  Cut out inputs/dr-front.jpg locally with rembg (`pip install "rembg[cpu]"`, model isnet-general-use with alpha matting). birefnet-portrait runs out of memory.
   3. Composite locally with PIL so it looks photographed in the scene. See tools/compose_poster_diwali_example.py:
