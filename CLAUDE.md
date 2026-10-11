@@ -36,6 +36,6 @@
      - the diya/flower row re-layered IN FRONT of his coat, so the photo's bottom crop is hidden
      - the cropped shoulder edge faded out; alpha eroded 1px to remove the grey hair fringe
      - he stays on the right, never overlapping the text column (x < 520)
-  4. Typography: Playfair Display (gold gradient) for the greeting, Mukta for Marathi, Poppins for everything else. Glass navy info panel at the bottom with a gold hairline, both phones, website, handle, and the real QR (inputs/qr-card.png) on a white card.
+  4. Typography: Playfair Display (gold gradient) for the greeting, Mukta for Marathi, Poppins for everything else. Glass navy info panel at the bottom with a gold hairline, both phones, website, handle, and the real QR (inputs/qr-card.png) on a white card, labelled exactly "Scan to save contact" (never just "Scan to save").
   5. Proofread, verify the QR decodes, then upload the PNG to Canva and to Drive 05 Ready to post.
-  Approved example: out/W00-poster/diwali_final_real_photo.png
+  Approved example: out/W00-poster/diwali_final_v2.png (three-quarter photo, 820px tall)
