@@ -1,0 +1,17 @@
+{
+  "week": "W00-navratri",
+  "images": [
+    {
+      "id": "navratri_bg_emerald",
+      "aspect": "9:16",
+      "size": "2K",
+      "prompt": "Photorealistic premium Navratri festival background for a tall phone status poster, with NO people and NO text. Deep emerald green to navy blue softly lit backdrop with warm golden bokeh lights and a delicate hanging marigold toran across the very top. Along the bottom 25%: a festive arrangement on a low surface, with a brass kalash topped with mango leaves and a coconut wrapped in red cloth, glowing clay diyas, red and orange marigolds, red hibiscus flowers and a pair of decorated dandiya sticks, softly lit. The middle and right side are calm, dark and uncluttered, so a person and text can be placed there later. Warm light from the left, elegant and devotional. One continuous full-bleed scene, no bands, borders or panels, no letters, no logos, no deity faces."
+    },
+    {
+      "id": "navratri_bg_maroon",
+      "aspect": "9:16",
+      "size": "2K",
+      "prompt": "Photorealistic premium Navratri festival background for a tall phone status poster, with NO people and NO text. Rich deep maroon-red to dark navy backdrop with soft golden bokeh and subtle gold mandala patterns fading into darkness. Along the bottom 25%: brass diyas with flames, a brass kalash with mango leaves and coconut, red and yellow marigolds, red chunari fabric with gold border, and decorated dandiya sticks. The middle and right side are calm, dark and uncluttered, so a person and text can be placed there later. Warm light from the left. One continuous full-bleed scene, no bands, borders or panels, no letters, no logos, no deity faces."
+    }
+  ]
+}
