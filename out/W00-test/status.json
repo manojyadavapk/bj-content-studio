@@ -1,0 +1,16 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "cover_walking": {
+    "ok": true,
+    "file": "out/W00-test/cover_walking.png",
+    "at": "2026-10-11 06:50 UTC"
+  },
+  "walking_tip_mr": {
+    "ok": true,
+    "file": "out/W00-test/walking_tip_mr.wav",
+    "at": "2026-10-11 06:50 UTC"
+  }
+}
