@@ -1,0 +1,17 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": "veo-3.1-fast-generate-preview"
+  },
+  "diwali_poster_a": {
+    "ok": true,
+    "file": "out/W00-poster/diwali_poster_a.png",
+    "at": "2026-10-11 08:21 UTC"
+  },
+  "diwali_poster_b": {
+    "ok": true,
+    "file": "out/W00-poster/diwali_poster_b.png",
+    "at": "2026-10-11 08:22 UTC"
+  }
+}
