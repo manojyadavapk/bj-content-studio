@@ -1,0 +1,12 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": "veo-3.1-fast-generate-preview"
+  },
+  "clinic_tour_mr": {
+    "ok": true,
+    "file": "out/W00-reel/clinic_tour_mr.wav",
+    "at": "2026-10-11 07:27 UTC"
+  }
+}
