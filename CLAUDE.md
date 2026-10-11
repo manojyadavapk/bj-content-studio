@@ -8,6 +8,7 @@
 - Item ids must be unique within a week. Existing files are never remade, so to redo one, change its id.
 - Image prompts:
   - Never put text in the image; Canva adds all text.
+  - Ask for "one continuous full-bleed scene, no bands, borders or panels". Asking for "empty sky in the top third" produced a visible seam line in the first test. Instead, say "simple uncluttered background at the top".
   - No exercise-position images. Exercise slides use the website illustrations (bonesnjointsclinic.com/img/PT-*.jpg).
   - Use Indian people and settings, warm and natural, in the brand colours: green #62AA94, navy #0D2C5C, mint #E0F1EC.
 - Voiceovers:
