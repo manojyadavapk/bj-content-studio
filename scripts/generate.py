@@ -118,8 +118,11 @@ def make_image(model, item, path):
 
 
 def make_voice(model, item, path_wav):
-    text = (item.get("style", "Say warmly and clearly, like a caring doctor talking to a patient:")
-            + " " + item["text"])
+    # Send ONLY the words to be spoken. Style instructions get read aloud by the TTS model
+    # (found Oct 2026), so "style" is ignored unless "style_prefix": true is set explicitly.
+    text = item["text"]
+    if item.get("style_prefix") and item.get("style"):
+        text = item["style"] + " " + text
     body = {"contents": [{"parts": [{"text": text}]}],
             "generationConfig": {"responseModalities": ["AUDIO"],
                                  "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig":

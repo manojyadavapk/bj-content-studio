@@ -12,6 +12,7 @@
   - No exercise-position images. Exercise slides use the website illustrations (bonesnjointsclinic.com/img/PT-*.jpg).
   - Use Indian people and settings, warm and natural, in the brand colours: green #62AA94, navy #0D2C5C, mint #E0F1EC.
 - Voiceovers:
+  - Put ONLY the spoken words in "text". The TTS model reads any instruction aloud, so don't add a "style" line. Choose tone with the voice name instead (e.g. Kore = warm female, Charon/Puck = male).
   - Marathi or English, plain patient language.
   - Never claim to be Dr Yadav's own voice.
 - Never commit keys, patient names, photos of patients or any patient data. The repository is public.
