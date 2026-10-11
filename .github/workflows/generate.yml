@@ -1,0 +1,35 @@
+name: Gemini — make images and voiceovers
+
+on:
+  push:
+    paths: ["briefs/**.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: sudo apt-get install -y ffmpeg >/dev/null 2>&1 || true
+      - name: Ask Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 scripts/generate.py
+      - name: Save results back to the repository
+        run: |
+          git config user.name "bj-studio-bot"
+          git config user.email "bj-studio-bot@users.noreply.github.com"
+          git add out
+          git diff --cached --quiet && exit 0
+          git commit -m "Gemini output for $(ls briefs | tr '\n' ' ')"
+          git pull --rebase
+          git push

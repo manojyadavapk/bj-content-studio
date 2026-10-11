@@ -1,0 +1,18 @@
+{
+  "week": "W00-test",
+  "images": [
+    {
+      "id": "cover_walking",
+      "aspect": "4:5",
+      "prompt": "Warm, natural photograph-style image of a smiling Indian couple in their 60s walking together on a green park path in Maharashtra at early morning, soft sunrise light, the woman in a simple cotton saree and the man in a kurta and walking shoes, relaxed and healthy, gentle mint-green and soft navy tones, plenty of calm empty sky in the top third for a headline. No text, no letters, no logos, no watermarks."
+    }
+  ],
+  "voice": [
+    {
+      "id": "walking_tip_mr",
+      "voice": "Kore",
+      "style": "Read this Marathi text slowly, warmly and clearly, like a caring doctor talking to an older patient:",
+      "text": "नमस्कार! बोन्स अँड जॉइंट्स क्लिनिककडून आजची छोटी टीप. गुडघे दुखत असले तरी रोज वीस ते तीस मिनिटं चालणं गुडघ्यांसाठी चांगलं असतं. हळूहळू सुरुवात करा आणि अंतर थोडं थोडं वाढवा. सूज, गुडघा अडकणं किंवा रात्री झोपेतून जागं करणारी वेदना असेल, तर डॉक्टरांना नक्की दाखवा."
+    }
+  ]
+}
