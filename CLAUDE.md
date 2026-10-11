@@ -39,3 +39,4 @@
   4. Typography: Playfair Display (gold gradient) for the greeting, Mukta for Marathi, Poppins for everything else. Glass navy info panel at the bottom with a gold hairline, both phones, website, handle, and the real QR (inputs/qr-card.png) on a white card, labelled exactly "Scan to save contact" (never just "Scan to save").
   5. Proofread, verify the QR decodes, then upload the PNG to Canva and to Drive 05 Ready to post.
   Approved example: out/W00-poster/diwali_final_v2.png (three-quarter photo, 820px tall)
+- STATUS / STORY posters (1080x1920, e.g. WhatsApp status): use tools/compose_status.py <bg> <cutout> <out_prefix> <config.json>; tools/status_config_navratri_example.json is the example config. The status app covers the top ~150px (name and progress bar) and the bottom ~150px (Reply bar), so the header starts at y>=180 and all contact info ends above y=1770 (the script asserts this). Approved example: out/W00-navratri/navratri_status_green.png.
