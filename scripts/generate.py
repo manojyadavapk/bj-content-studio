@@ -101,11 +101,12 @@ def make_image(model, item, path):
     parts = [inline_file(r) for r in item.get("refs", [])] + [{"text": item["prompt"]}]
     body = {"contents": [{"parts": parts}],
             "generationConfig": {"responseModalities": ["IMAGE"],
-                                 "imageConfig": {"aspectRatio": item.get("aspect", "4:5")}}}
+                                 "imageConfig": {"aspectRatio": item.get("aspect", "4:5"),
+                                                 **({"imageSize": item["size"]} if item.get("size") else {})}}}
     try:
         resp = call(f"models/{model}:generateContent", body)
     except RuntimeError as e:
-        if "imageConfig" in str(e) or "aspect" in str(e).lower():
+        if "imageConfig" in str(e) or "aspect" in str(e).lower() or "imageSize" in str(e):
             body["generationConfig"].pop("imageConfig")
             resp = call(f"models/{model}:generateContent", body)
         else:
