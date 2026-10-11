@@ -1,0 +1,17 @@
+{
+  "week": "W00-bg",
+  "images": [
+    {
+      "id": "diwali_bg_navy",
+      "aspect": "4:5",
+      "size": "2K",
+      "prompt": "Photorealistic premium Diwali background for a poster, with NO people and NO text. Deep navy-to-emerald-green softly lit backdrop with warm golden bokeh. Along the bottom edge: a row of glowing clay diyas, orange and yellow marigold flowers and a subtle gold rangoli pattern. The right half and centre are calm, dark and uncluttered, so a person and text can be placed there later. Soft warm light falling from the left, cinematic and elegant. One continuous full-bleed scene, no bands, borders or panels, no letters, no logos."
+    },
+    {
+      "id": "diwali_bg_cream",
+      "aspect": "4:5",
+      "size": "2K",
+      "prompt": "Photorealistic premium Diwali background for a poster, with NO people and NO text. Warm cream and soft gold interior with gentle bokeh lights. On the right edge: a brass lamp stand with flames, marigold garlands and a colourful rangoli on the floor, slightly out of focus. The left half and centre are a clean, softly lit, uncluttered cream space, so a person and text can be placed there later. Elegant and bright. One continuous full-bleed scene, no bands, borders or panels, no letters, no logos."
+    }
+  ]
+}
