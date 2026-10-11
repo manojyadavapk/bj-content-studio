@@ -23,4 +23,9 @@
 - Veo garbles signboard and label text as the camera moves in. Use only the first 3–4 seconds of a push-in, or shots without close-up text.
 - Push ONE brief per commit and wait for its results. A second brief pushed while a run is in progress can be skipped; if that happens, touch the brief (add `"run": N`) and push again.
 - REAL PATIENT FOOTAGE NEVER GOES IN THIS PUBLIC REPO OR TO GEMINI. Edit clinic videos that show patients locally (ffmpeg in Claude's sandbox), and post them only after Dr Yadav confirms the patients' written consent.
-- Posters: let Gemini make the art with no text, then add all text, logo (MAHXq0wgMyM), QR (MAHXrkbIq0I), phones and addresses in Canva, so every detail is exact. Example: Canva design DAHXr6uyJiI (Diwali 2026).
+- Posters (Dr Yadav's decision, 11 Oct 2026: "make it coherent or delegate to Gemini"): GEMINI DESIGNS THE WHOLE POSTER, text included. Do NOT assemble posters from separate text boxes in Canva.
+  - refs: inputs/style-ref-navratri.jpg (style and quality target), inputs/dr-front.jpg, inputs/dr-three-quarter.jpg, inputs/bj-logo.png; "size": "2K", aspect 4:5.
+  - Give the EXACT text to use, line by line (title, Marathi line, message, addresses, phones +91 87665 22099 / +91 92702 84859, www.bonesnjointsclinic.com), and say "no other text".
+  - Ask for an empty white rounded square (about 14% of the width) in the bottom-right, labelled "Scan to save contact", with no QR pattern inside.
+  - Make 2 variants. PROOFREAD every word, phone digit and the Marathi at full size. Reject any variant with an error (e.g. a duplicated line, "Orthopadic"), or fix it with an edit pass that uses the poster itself as a ref.
+  - Paste the real QR (inputs/qr-card.png) into the detected white square with PIL, then verify it decodes with zxingcpp. Example: out/W00-poster/diwali_poster_b.png.
