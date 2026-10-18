@@ -1,0 +1,47 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": "veo-3.1-fast-generate-preview"
+  },
+  "c1_plate_a": {
+    "ok": true,
+    "file": "out/W00-aescora-logo/c1_plate_a.png",
+    "at": "2026-10-18 09:33 UTC"
+  },
+  "c1_plate_b": {
+    "ok": true,
+    "file": "out/W00-aescora-logo/c1_plate_b.png",
+    "at": "2026-10-18 09:33 UTC"
+  },
+  "c2_monogram_a": {
+    "ok": true,
+    "file": "out/W00-aescora-logo/c2_monogram_a.png",
+    "at": "2026-10-18 09:33 UTC"
+  },
+  "c2_monogram_b": {
+    "ok": true,
+    "file": "out/W00-aescora-logo/c2_monogram_b.png",
+    "at": "2026-10-18 09:33 UTC"
+  },
+  "c3_bridge_a": {
+    "ok": true,
+    "file": "out/W00-aescora-logo/c3_bridge_a.png",
+    "at": "2026-10-18 09:33 UTC"
+  },
+  "c3_bridge_b": {
+    "ok": true,
+    "file": "out/W00-aescora-logo/c3_bridge_b.png",
+    "at": "2026-10-18 09:33 UTC"
+  },
+  "c4_nail_a": {
+    "ok": true,
+    "file": "out/W00-aescora-logo/c4_nail_a.png",
+    "at": "2026-10-18 09:33 UTC"
+  },
+  "c4_nail_b": {
+    "ok": true,
+    "file": "out/W00-aescora-logo/c4_nail_b.png",
+    "at": "2026-10-18 09:33 UTC"
+  }
+}
