@@ -18,5 +18,10 @@
     "ok": true,
     "file": "out/W00-dussehra/dussehra_bg_landscape.png",
     "at": "2026-10-19 12:42 UTC"
+  },
+  "dussehra_bg_landscape_v2": {
+    "ok": true,
+    "file": "out/W00-dussehra/dussehra_bg_landscape_v2.png",
+    "at": "2026-10-19 12:44 UTC"
   }
 }
