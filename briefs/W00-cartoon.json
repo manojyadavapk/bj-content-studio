@@ -44,6 +44,42 @@
         "inputs/dr-side-profile.jpg"
       ],
       "prompt": "Images 1, 2 and 3 are real photos of one man, Dr Manoj Yadav, from the front, three-quarter and side. Create an ORIGINAL cartoon character that is clearly him: keep his face shape, eyes, eyebrows, nose, beard and moustache shape, hairline and hairstyle, and skin tone, so anyone who knows him recognises him instantly. He wears a white doctor's coat over a light-blue shirt, with dark trousers. Friendly, confident, kind expression. Do not copy or resemble any existing cartoon, anime or film character. No text, no letters, no logos, no name badge anywhere in the image. Expression sheet in clean modern anime style on a plain light mint (#E0F1EC) background: six head-and-shoulder portraits of the SAME character in a 3x2 grid: warm smile, explaining with one finger raised, concerned, surprised, laughing, and giving a thumbs up. Consistent face, beard and hair in every panel."
+    },
+    {
+      "id": "cartoon_v2_expressions",
+      "aspect": "16:9",
+      "size": "2K",
+      "refs": [
+        "out/W00-cartoon/cartoon_anime_expressions.png",
+        "inputs/dr-front.jpg",
+        "inputs/dr-three-quarter.jpg",
+        "inputs/dr-side-profile.jpg"
+      ],
+      "prompt": "Image 1 is the approved cartoon character: keep its EXACT drawing style (clean bold outlines, flat colours with soft cel shading, friendly expressive faces), the white coat over light-blue shirt, and the plain light mint (#E0F1EC) background. Images 2, 3 and 4 are real photos of the same man. Improve the likeness to the photos with these fixes: (1) the beard is fuller and longer, extending well below the chin and neatly trimmed, with a full moustache joined to it; (2) the face is longer and slimmer, with a narrower jaw (less round); (3) the skin is a lighter, warm wheatish tone; (4) the hair is thick, black and softly wavy with volume on top, swept up and back, not tight curls. Keep his real eye shape, eyebrows and nose. Do not copy or resemble any existing cartoon character. No text, letters, logos or name badge anywhere. Draw an expression sheet: seven head-and-shoulder portraits of this SAME character in the same layout as image 1 (four on top, three below): warm smile, explaining with one finger raised, concerned, surprised, laughing, and thumbs up, plus one pointing to the side as if presenting. Identical face, beard and hair in every panel."
+    },
+    {
+      "id": "cartoon_v2_turnaround",
+      "aspect": "16:9",
+      "size": "2K",
+      "refs": [
+        "out/W00-cartoon/cartoon_anime_expressions.png",
+        "inputs/dr-front.jpg",
+        "inputs/dr-three-quarter.jpg",
+        "inputs/dr-side-profile.jpg"
+      ],
+      "prompt": "Image 1 is the approved cartoon character: keep its EXACT drawing style (clean bold outlines, flat colours with soft cel shading, friendly expressive faces), the white coat over light-blue shirt, and the plain light mint (#E0F1EC) background. Images 2, 3 and 4 are real photos of the same man. Improve the likeness to the photos with these fixes: (1) the beard is fuller and longer, extending well below the chin and neatly trimmed, with a full moustache joined to it; (2) the face is longer and slimmer, with a narrower jaw (less round); (3) the skin is a lighter, warm wheatish tone; (4) the hair is thick, black and softly wavy with volume on top, swept up and back, not tight curls. Keep his real eye shape, eyebrows and nose. Do not copy or resemble any existing cartoon character. No text, letters, logos or name badge anywhere. Draw a character turnaround sheet: the SAME character four times side by side, full body standing, dark navy trousers and brown shoes: front view, three-quarter view, side view facing right, back view. Consistent proportions and colours."
+    },
+    {
+      "id": "cartoon_v2_presenter",
+      "aspect": "9:16",
+      "size": "2K",
+      "refs": [
+        "out/W00-cartoon/cartoon_anime_expressions.png",
+        "inputs/dr-front.jpg",
+        "inputs/dr-three-quarter.jpg",
+        "inputs/dr-side-profile.jpg"
+      ],
+      "prompt": "Image 1 is the approved cartoon character: keep its EXACT drawing style (clean bold outlines, flat colours with soft cel shading, friendly expressive faces), the white coat over light-blue shirt, and the plain light mint (#E0F1EC) background. Images 2, 3 and 4 are real photos of the same man. Improve the likeness to the photos with these fixes: (1) the beard is fuller and longer, extending well below the chin and neatly trimmed, with a full moustache joined to it; (2) the face is longer and slimmer, with a narrower jaw (less round); (3) the skin is a lighter, warm wheatish tone; (4) the hair is thick, black and softly wavy with volume on top, swept up and back, not tight curls. Keep his real eye shape, eyebrows and nose. Do not copy or resemble any existing cartoon character. No text, letters, logos or name badge anywhere. Draw this SAME character from the waist up, standing slightly turned to the right, one hand open and gesturing to the right as if explaining something, warm confident smile. Leave the right half and the top of the frame as plain mint background (simple uncluttered background), so text and pictures can be added there later."
     }
   ]
 }
