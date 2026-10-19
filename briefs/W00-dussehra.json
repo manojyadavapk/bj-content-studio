@@ -18,6 +18,12 @@
       "aspect": "4:3",
       "size": "2K",
       "prompt": "Photorealistic premium Dussehra (Vijayadashami) festival background, landscape, with NO people and NO text. Deep navy blue backdrop with warm golden bokeh and a soft saffron glow. A marigold and mango-leaf toran across the very top edge. On the right third: a festive arrangement of a bundle of fresh green apta leaves (heart-shaped twin-lobed Bauhinia racemosa leaves) tied with red thread, orange and yellow marigolds, two glowing brass diyas and a small brass plate with kumkum. The left two-thirds is a simple uncluttered dark background so text can be placed there later. Warm light, elegant and calm. One continuous full-bleed scene, no bands, borders or panels, no letters, no logos, no deity faces, no fire effigy, no weapons."
+    },
+    {
+      "id": "dussehra_bg_landscape_v2",
+      "aspect": "4:3",
+      "size": "2K",
+      "prompt": "Photorealistic premium Dussehra (Vijayadashami) festival scene, landscape, with NO people and NO text. One single continuous photograph of a softly lit deep navy blue wall with warm golden bokeh spread evenly across the whole frame and a gentle saffron glow. A marigold and mango-leaf toran hangs across the very top edge. A long low wooden surface runs along the bottom of the whole frame; on its right end sits a bundle of fresh green apta leaves (heart-shaped twin-lobed Bauhinia racemosa leaves) tied with red thread, orange and yellow marigolds, two glowing brass diyas and a small brass plate with kumkum. Simple uncluttered background on the left and middle so text can be placed there later. The wall, light and bokeh must flow seamlessly from left to right with no vertical lines, no split, no panels, no bands or borders. No letters, no logos, no deity faces, no fire effigy, no weapons."
     }
   ]
 }
