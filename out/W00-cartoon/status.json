@@ -1,0 +1,27 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": "veo-3.1-fast-generate-preview"
+  },
+  "cartoon_anime_sheet": {
+    "ok": true,
+    "file": "out/W00-cartoon/cartoon_anime_sheet.png",
+    "at": "2026-10-19 18:17 UTC"
+  },
+  "cartoon_3d_sheet": {
+    "ok": true,
+    "file": "out/W00-cartoon/cartoon_3d_sheet.png",
+    "at": "2026-10-19 18:17 UTC"
+  },
+  "cartoon_flat_sheet": {
+    "ok": true,
+    "file": "out/W00-cartoon/cartoon_flat_sheet.png",
+    "at": "2026-10-19 18:18 UTC"
+  },
+  "cartoon_anime_expressions": {
+    "ok": true,
+    "file": "out/W00-cartoon/cartoon_anime_expressions.png",
+    "at": "2026-10-19 18:18 UTC"
+  }
+}
