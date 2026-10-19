@@ -133,7 +133,7 @@ d.text((56, pt + 58), '+91 87665 22099', font=ph, fill=(255, 255, 255))
 d.text((420, pt + 28), 'VIRAR EAST', font=lab, fill=GOLD1)
 d.text((420, pt + 58), '+91 92702 84859', font=ph, fill=(255, 255, 255))
 d.text((56, pt + 124), 'bonesnjointsclinic.com  ·  @bonesnjointsclinic', font=font(GF + 'Poppins-Medium.ttf', 22), fill=MINT)
-d.text((56, pt + 160), 'Mon–Sat · Sunday by appointment', font=font(GF + 'Poppins-Regular.ttf', 21), fill=(215, 222, 235))
+d.text((56, pt + 160), C.get('hours_line', 'Mon–Sat · Sunday closed'), font=font(GF + 'Poppins-Regular.ttf', 21), fill=(215, 222, 235))
 qr = Image.open(REPO + 'inputs/qr-card.png').convert('RGBA'); qs = 140
 card = Image.new('RGBA', (qs + 16, qs + 16), (0, 0, 0, 0))
 ImageDraw.Draw(card).rounded_rectangle([0, 0, qs + 15, qs + 15], 14, fill=(255, 255, 255, 255))
