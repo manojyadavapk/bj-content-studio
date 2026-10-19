@@ -1,0 +1,22 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": "veo-3.1-fast-generate-preview"
+  },
+  "dussehra_bg_portrait": {
+    "ok": true,
+    "file": "out/W00-dussehra/dussehra_bg_portrait.png",
+    "at": "2026-10-19 12:42 UTC"
+  },
+  "dussehra_bg_status": {
+    "ok": true,
+    "file": "out/W00-dussehra/dussehra_bg_status.png",
+    "at": "2026-10-19 12:42 UTC"
+  },
+  "dussehra_bg_landscape": {
+    "ok": true,
+    "file": "out/W00-dussehra/dussehra_bg_landscape.png",
+    "at": "2026-10-19 12:42 UTC"
+  }
+}
