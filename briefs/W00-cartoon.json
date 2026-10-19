@@ -1,0 +1,49 @@
+{
+  "week": "W00-cartoon",
+  "images": [
+    {
+      "id": "cartoon_anime_sheet",
+      "aspect": "16:9",
+      "size": "2K",
+      "refs": [
+        "inputs/dr-front.jpg",
+        "inputs/dr-three-quarter.jpg",
+        "inputs/dr-side-profile.jpg"
+      ],
+      "prompt": "Images 1, 2 and 3 are real photos of one man, Dr Manoj Yadav, from the front, three-quarter and side. Create an ORIGINAL cartoon character that is clearly him: keep his face shape, eyes, eyebrows, nose, beard and moustache shape, hairline and hairstyle, and skin tone, so anyone who knows him recognises him instantly. He wears a white doctor's coat over a light-blue shirt, with dark trousers. Friendly, confident, kind expression. Do not copy or resemble any existing cartoon, anime or film character. No text, no letters, no logos, no name badge anywhere in the image. Character turnaround sheet on a plain light mint (#E0F1EC) background: the SAME character shown 4 times side by side, full body, standing: front view, three-quarter view, side view facing right, and back view. Even spacing, consistent proportions and colours across all four. Style: clean modern Japanese anime / manga illustration, crisp line art, cel shading, expressive eyes kept true to his real eye shape."
+    },
+    {
+      "id": "cartoon_3d_sheet",
+      "aspect": "16:9",
+      "size": "2K",
+      "refs": [
+        "inputs/dr-front.jpg",
+        "inputs/dr-three-quarter.jpg",
+        "inputs/dr-side-profile.jpg"
+      ],
+      "prompt": "Images 1, 2 and 3 are real photos of one man, Dr Manoj Yadav, from the front, three-quarter and side. Create an ORIGINAL cartoon character that is clearly him: keep his face shape, eyes, eyebrows, nose, beard and moustache shape, hairline and hairstyle, and skin tone, so anyone who knows him recognises him instantly. He wears a white doctor's coat over a light-blue shirt, with dark trousers. Friendly, confident, kind expression. Do not copy or resemble any existing cartoon, anime or film character. No text, no letters, no logos, no name badge anywhere in the image. Character turnaround sheet on a plain light mint (#E0F1EC) background: the SAME character shown 4 times side by side, full body, standing: front view, three-quarter view, side view facing right, and back view. Even spacing, consistent proportions and colours across all four. Style: warm, polished 3D animated-movie character, soft lighting, slightly stylised proportions (a little larger head), friendly and family-oriented."
+    },
+    {
+      "id": "cartoon_flat_sheet",
+      "aspect": "16:9",
+      "size": "2K",
+      "refs": [
+        "inputs/dr-front.jpg",
+        "inputs/dr-three-quarter.jpg",
+        "inputs/dr-side-profile.jpg"
+      ],
+      "prompt": "Images 1, 2 and 3 are real photos of one man, Dr Manoj Yadav, from the front, three-quarter and side. Create an ORIGINAL cartoon character that is clearly him: keep his face shape, eyes, eyebrows, nose, beard and moustache shape, hairline and hairstyle, and skin tone, so anyone who knows him recognises him instantly. He wears a white doctor's coat over a light-blue shirt, with dark trousers. Friendly, confident, kind expression. Do not copy or resemble any existing cartoon, anime or film character. No text, no letters, no logos, no name badge anywhere in the image. Character turnaround sheet on a plain light mint (#E0F1EC) background: the SAME character shown 4 times side by side, full body, standing: front view, three-quarter view, side view facing right, and back view. Even spacing, consistent proportions and colours across all four. Style: clean flat 2D vector illustration like a modern Indian health-education explainer, bold simple shapes, minimal shading, brand colours green #62AA94 and navy #0D2C5C as accents."
+    },
+    {
+      "id": "cartoon_anime_expressions",
+      "aspect": "16:9",
+      "size": "2K",
+      "refs": [
+        "inputs/dr-front.jpg",
+        "inputs/dr-three-quarter.jpg",
+        "inputs/dr-side-profile.jpg"
+      ],
+      "prompt": "Images 1, 2 and 3 are real photos of one man, Dr Manoj Yadav, from the front, three-quarter and side. Create an ORIGINAL cartoon character that is clearly him: keep his face shape, eyes, eyebrows, nose, beard and moustache shape, hairline and hairstyle, and skin tone, so anyone who knows him recognises him instantly. He wears a white doctor's coat over a light-blue shirt, with dark trousers. Friendly, confident, kind expression. Do not copy or resemble any existing cartoon, anime or film character. No text, no letters, no logos, no name badge anywhere in the image. Expression sheet in clean modern anime style on a plain light mint (#E0F1EC) background: six head-and-shoulder portraits of the SAME character in a 3x2 grid: warm smile, explaining with one finger raised, concerned, surprised, laughing, and giving a thumbs up. Consistent face, beard and hair in every panel."
+    }
+  ]
+}
