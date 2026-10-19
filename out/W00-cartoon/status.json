@@ -23,5 +23,20 @@
     "ok": true,
     "file": "out/W00-cartoon/cartoon_anime_expressions.png",
     "at": "2026-10-19 18:18 UTC"
+  },
+  "cartoon_v2_expressions": {
+    "ok": true,
+    "file": "out/W00-cartoon/cartoon_v2_expressions.png",
+    "at": "2026-10-19 18:22 UTC"
+  },
+  "cartoon_v2_turnaround": {
+    "ok": true,
+    "file": "out/W00-cartoon/cartoon_v2_turnaround.png",
+    "at": "2026-10-19 18:22 UTC"
+  },
+  "cartoon_v2_presenter": {
+    "ok": true,
+    "file": "out/W00-cartoon/cartoon_v2_presenter.png",
+    "at": "2026-10-19 18:23 UTC"
   }
 }
