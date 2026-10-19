@@ -1,0 +1,23 @@
+{
+  "week": "W00-dussehra",
+  "images": [
+    {
+      "id": "dussehra_bg_portrait",
+      "aspect": "4:5",
+      "size": "2K",
+      "prompt": "Photorealistic premium Dussehra (Vijayadashami) festival background in a Maharashtrian home, with NO people and NO text. Deep navy blue backdrop with warm golden bokeh lights and a soft saffron glow. A fresh marigold and mango-leaf toran hangs across the very top edge. Along the bottom 22%: a festive arrangement on a low wooden surface, with a neat bundle of fresh green apta leaves (heart-shaped twin-lobed Bauhinia racemosa leaves) tied with a red thread, loose apta leaves, orange and yellow marigold flowers, two glowing brass diyas and a small brass plate with kumkum and rice. Simple uncluttered background in the middle and on the right side so a person and text can be placed there later. Warm light from the left, elegant, calm and auspicious. One continuous full-bleed scene, no bands, borders or panels, no letters, no logos, no deity faces, no fire effigy, no weapons."
+    },
+    {
+      "id": "dussehra_bg_status",
+      "aspect": "9:16",
+      "size": "2K",
+      "prompt": "Photorealistic premium Dussehra (Vijayadashami) festival background for a tall phone status poster, with NO people and NO text. Deep navy blue to dark teal-green backdrop with soft golden bokeh and a gentle saffron glow. A marigold and mango-leaf toran hangs across the very top. Along the bottom 25%: a bundle of fresh green apta leaves (heart-shaped twin-lobed Bauhinia racemosa leaves) tied with red thread, scattered apta leaves, orange and yellow marigolds, glowing brass diyas and a brass plate with kumkum. Simple uncluttered background in the middle and on the right side so a person and text can be placed there later. Warm light from the left. One continuous full-bleed scene, no bands, borders or panels, no letters, no logos, no deity faces, no fire effigy, no weapons."
+    },
+    {
+      "id": "dussehra_bg_landscape",
+      "aspect": "4:3",
+      "size": "2K",
+      "prompt": "Photorealistic premium Dussehra (Vijayadashami) festival background, landscape, with NO people and NO text. Deep navy blue backdrop with warm golden bokeh and a soft saffron glow. A marigold and mango-leaf toran across the very top edge. On the right third: a festive arrangement of a bundle of fresh green apta leaves (heart-shaped twin-lobed Bauhinia racemosa leaves) tied with red thread, orange and yellow marigolds, two glowing brass diyas and a small brass plate with kumkum. The left two-thirds is a simple uncluttered dark background so text can be placed there later. Warm light, elegant and calm. One continuous full-bleed scene, no bands, borders or panels, no letters, no logos, no deity faces, no fire effigy, no weapons."
+    }
+  ]
+}
