@@ -40,3 +40,8 @@
   5. Proofread, verify the QR decodes, then upload the PNG to Canva and to Drive 05 Ready to post.
   Approved example: out/W00-poster/diwali_final_v2.png (three-quarter photo, 820px tall)
 - STATUS / STORY posters (1080x1920, e.g. WhatsApp status): use tools/compose_status.py <bg> <cutout> <out_prefix> <config.json>; tools/status_config_navratri_example.json is the example config. The status app covers the top ~150px (name and progress bar) and the bottom ~150px (Reply bar), so the header starts at y>=180 and all contact info ends above y=1770 (the script asserts this). Approved example: out/W00-navratri/navratri_status_green.png.
+
+## Cartoon character (Dr Yadav, 20 Oct 2026)
+- Dr Yadav authorised a CARTOON version of himself for educational videos (Reels/YouTube). It does not replace the poster rule above: realistic posters still use only his real photos.
+- Master references, made in ChatGPT and approved by him: `inputs/dr-cartoon-presenter.png` (waist-up, explaining) and `inputs/dr-cartoon-expressions.png` (7 expressions). Pass BOTH as `refs` for every cartoon scene and ask Gemini to keep the face, beard, hair and skin tone identical, in the same clean-outline cel-shaded style.
+- Every cartoon video carries an on-screen "AI-generated illustration" mark (NMC guidelines, 6 Oct 2026) and is education only: no offers, no booking calls to action.
