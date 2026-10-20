@@ -1,0 +1,75 @@
+{
+  "week": "W00-cartoon-osteo",
+  "images": [
+    {
+      "id": "s1_hello",
+      "aspect": "9:16",
+      "size": "2K",
+      "refs": [
+        "inputs/dr-cartoon-presenter.png",
+        "inputs/dr-cartoon-expressions.png"
+      ],
+      "prompt": "Images 1 and 2 are the APPROVED cartoon master of Dr Manoj Yadav. Keep his face, beard, moustache, hair and skin tone IDENTICAL to them, and keep the same clean-outline, flat-colour, soft cel-shaded cartoon style, white doctor's coat over a light-blue shirt. Clearly a non-realistic educational cartoon. Brand colours: green #62AA94, navy #0D2C5C, mint #E0F1EC. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. Vertical 9:16 frame; keep the lower third calm and uncluttered for captions. Cartoon Dr Manoj waving warmly at the viewer, holding a big friendly cartoon bone in the other hand, in a bright clean Indian clinic room with a simple uncluttered background at the top."
+    },
+    {
+      "id": "s2_honeycomb",
+      "aspect": "9:16",
+      "size": "2K",
+      "refs": [
+        "inputs/dr-cartoon-presenter.png",
+        "inputs/dr-cartoon-expressions.png"
+      ],
+      "prompt": "Images 1 and 2 are the APPROVED cartoon master of Dr Manoj Yadav. Keep his face, beard, moustache, hair and skin tone IDENTICAL to them, and keep the same clean-outline, flat-colour, soft cel-shaded cartoon style, white doctor's coat over a light-blue shirt. Clearly a non-realistic educational cartoon. Brand colours: green #62AA94, navy #0D2C5C, mint #E0F1EC. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. Vertical 9:16 frame; keep the lower third calm and uncluttered for captions. A journey INSIDE a bone: a giant cartoon thigh bone cut open shows its spongy inside as a strong, dense honeycomb lattice of thick cream-coloured struts. A small cartoon Dr Manoj stands inside on one strut like an explorer with a torch, looking around in wonder. Warm glowing light."
+    },
+    {
+      "id": "s3_two_teams",
+      "aspect": "9:16",
+      "size": "2K",
+      "refs": [
+        "inputs/dr-cartoon-presenter.png",
+        "inputs/dr-cartoon-expressions.png"
+      ],
+      "prompt": "Images 1 and 2 are the APPROVED cartoon master of Dr Manoj Yadav. Keep his face, beard, moustache, hair and skin tone IDENTICAL to them, and keep the same clean-outline, flat-colour, soft cel-shaded cartoon style, white doctor's coat over a light-blue shirt. Clearly a non-realistic educational cartoon. Brand colours: green #62AA94, navy #0D2C5C, mint #E0F1EC. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. Vertical 9:16 frame; keep the lower third calm and uncluttered for captions. Inside the honeycomb bone: two teams of cute tiny cartoon worker cells. On the left, green-helmet builder cells carry and lay new bone bricks onto the struts. On the right, navy-helmet remover cells gently chip away old cracked bits and carry them off. Both teams are the same size and working in balance. Small cartoon Dr Manoj in the corner pointing at them and smiling."
+    },
+    {
+      "id": "s4_imbalance",
+      "aspect": "9:16",
+      "size": "2K",
+      "refs": [
+        "inputs/dr-cartoon-presenter.png",
+        "inputs/dr-cartoon-expressions.png"
+      ],
+      "prompt": "Images 1 and 2 are the APPROVED cartoon master of Dr Manoj Yadav. Keep his face, beard, moustache, hair and skin tone IDENTICAL to them, and keep the same clean-outline, flat-colour, soft cel-shaded cartoon style, white doctor's coat over a light-blue shirt. Clearly a non-realistic educational cartoon. Brand colours: green #62AA94, navy #0D2C5C, mint #E0F1EC. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. Vertical 9:16 frame; keep the lower third calm and uncluttered for captions. Inside the honeycomb bone, later in life: the navy remover cells are now many and busy, rushing and chipping fast, while only a few tired green builder cells lag behind, one sitting down exhausted. A large cartoon hourglass floats in the background to show time passing. Small cartoon Dr Manoj looking concerned with one hand on his chin."
+    },
+    {
+      "id": "s5_fragile",
+      "aspect": "9:16",
+      "size": "2K",
+      "refs": [
+        "inputs/dr-cartoon-presenter.png",
+        "inputs/dr-cartoon-expressions.png"
+      ],
+      "prompt": "Images 1 and 2 are the APPROVED cartoon master of Dr Manoj Yadav. Keep his face, beard, moustache, hair and skin tone IDENTICAL to them, and keep the same clean-outline, flat-colour, soft cel-shaded cartoon style, white doctor's coat over a light-blue shirt. Clearly a non-realistic educational cartoon. Brand colours: green #62AA94, navy #0D2C5C, mint #E0F1EC. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. Vertical 9:16 frame; keep the lower third calm and uncluttered for captions. Inside the bone: the honeycomb lattice now has large holes and thin fragile struts, one strut snapping. In the upper part of the scene, a simple cartoon side view of the spine where one vertebra is cracked and squashed into a wedge, with a gentle red glow on it. Small cartoon Dr Manoj with a concerned face pointing at the crack."
+    },
+    {
+      "id": "s6_prevention",
+      "aspect": "9:16",
+      "size": "2K",
+      "refs": [
+        "inputs/dr-cartoon-presenter.png",
+        "inputs/dr-cartoon-expressions.png"
+      ],
+      "prompt": "Images 1 and 2 are the APPROVED cartoon master of Dr Manoj Yadav. Keep his face, beard, moustache, hair and skin tone IDENTICAL to them, and keep the same clean-outline, flat-colour, soft cel-shaded cartoon style, white doctor's coat over a light-blue shirt. Clearly a non-realistic educational cartoon. Brand colours: green #62AA94, navy #0D2C5C, mint #E0F1EC. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. Vertical 9:16 frame; keep the lower third calm and uncluttered for captions. Cartoon Dr Manoj presenting four bright friendly items floating around him like icons: a glass of milk with a bowl of curd, ragi and green leafy vegetables; a smiling cartoon sun; a pair of walking shoes on a park path; and a simple bone-density scanner bed. Cheerful, hopeful, Indian setting."
+    },
+    {
+      "id": "s7_strong",
+      "aspect": "9:16",
+      "size": "2K",
+      "refs": [
+        "inputs/dr-cartoon-presenter.png",
+        "inputs/dr-cartoon-expressions.png"
+      ],
+      "prompt": "Images 1 and 2 are the APPROVED cartoon master of Dr Manoj Yadav. Keep his face, beard, moustache, hair and skin tone IDENTICAL to them, and keep the same clean-outline, flat-colour, soft cel-shaded cartoon style, white doctor's coat over a light-blue shirt. Clearly a non-realistic educational cartoon. Brand colours: green #62AA94, navy #0D2C5C, mint #E0F1EC. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. Vertical 9:16 frame; keep the lower third calm and uncluttered for captions. Cartoon Dr Manoj giving a big thumbs up and smiling, next to a glowing strong cartoon bone with a dense healthy honeycomb inside. Behind him, a happy cartoon Indian family (grandmother, mother, child) smiling. Bright mint and green background."
+    }
+  ]
+}
