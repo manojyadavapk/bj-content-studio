@@ -1,0 +1,59 @@
+{
+  "week": "W00-bsn",
+  "images": [
+    {
+      "id": "bone_compare",
+      "aspect": "16:9",
+      "size": "2K",
+      "prompt": "Clean, modern medical-education illustration in a soft flat-vector style with gentle shading, warm and friendly, on a plain light mint (#E0F1EC) background with accents of green #62AA94 and navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. Two cross-sections of a human bone side by side: on the left a healthy bone with a dense, tight honeycomb inside; on the right an osteoporotic bone with large holes and a thin, fragile honeycomb. Simple and clear for patients."
+    },
+    {
+      "id": "postmeno_woman",
+      "aspect": "16:9",
+      "size": "2K",
+      "prompt": "Clean, modern medical-education illustration in a soft flat-vector style with gentle shading, warm and friendly, on a plain light mint (#E0F1EC) background with accents of green #62AA94 and navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. A calm Indian woman in her early fifties in a simple saree at home, with a softly glowing semi-transparent view of her hip and spine bones showing slightly thinning bone. Respectful and reassuring."
+    },
+    {
+      "id": "senile_couple",
+      "aspect": "16:9",
+      "size": "2K",
+      "prompt": "Clean, modern medical-education illustration in a soft flat-vector style with gentle shading, warm and friendly, on a plain light mint (#E0F1EC) background with accents of green #62AA94 and navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. An elderly Indian couple in their late seventies, a grandfather with a walking stick and a grandmother in a saree, standing together at home, with a soft semi-transparent glow over their spines and hips showing fragile bones. Respectful and warm."
+    },
+    {
+      "id": "one_in_three",
+      "aspect": "16:9",
+      "size": "2K",
+      "prompt": "Clean, modern medical-education illustration in a soft flat-vector style with gentle shading, warm and friendly, on a plain light mint (#E0F1EC) background with accents of green #62AA94 and navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. Three Indian women over 50 standing side by side in sarees, the one on the right highlighted with a soft warm glow and a small cast on her wrist, the other two in softer muted tones. Simple infographic-style illustration."
+    },
+    {
+      "id": "spine_fracture",
+      "aspect": "16:9",
+      "size": "2K",
+      "prompt": "Clean, modern medical-education illustration in a soft flat-vector style with gentle shading, warm and friendly, on a plain light mint (#E0F1EC) background with accents of green #62AA94 and navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. Side view of a human spine of an elderly woman: one vertebra in the mid-back is compressed into a wedge shape, causing the upper back to bend forward into a rounded hump. Clear anatomical illustration for patients, the compressed vertebra gently highlighted in warm red."
+    },
+    {
+      "id": "calcium_foods",
+      "aspect": "16:9",
+      "size": "2K",
+      "prompt": "Clean, modern medical-education illustration in a soft flat-vector style with gentle shading, warm and friendly, on a plain light mint (#E0F1EC) background with accents of green #62AA94 and navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. An appetising arrangement of calcium-rich Indian foods on a table: a steel glass of milk, a clay bowl of curd (dahi), ragi (nachni) bhakri and ragi flour, and fresh green leafy vegetables like spinach and methi."
+    },
+    {
+      "id": "sunlight",
+      "aspect": "16:9",
+      "size": "2K",
+      "prompt": "Clean, modern medical-education illustration in a soft flat-vector style with gentle shading, warm and friendly, on a plain light mint (#E0F1EC) background with accents of green #62AA94 and navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. An Indian woman in her fifties sitting relaxed on a balcony chair in gentle early-morning sunlight, eyes softly closed, sunlight falling on her face and forearms, a few plants around."
+    },
+    {
+      "id": "light_weights",
+      "aspect": "16:9",
+      "size": "2K",
+      "prompt": "Clean, modern medical-education illustration in a soft flat-vector style with gentle shading, warm and friendly, on a plain light mint (#E0F1EC) background with accents of green #62AA94 and navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. A pair of small hexagonal dumbbells and a folded exercise mat on a wooden floor in soft daylight, simple still-life, no person."
+    },
+    {
+      "id": "family_share",
+      "aspect": "16:9",
+      "size": "2K",
+      "prompt": "Clean, modern medical-education illustration in a soft flat-vector style with gentle shading, warm and friendly, on a plain light mint (#E0F1EC) background with accents of green #62AA94 and navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. Absolutely no text, letters, numbers, labels or logos anywhere. Three generations of Indian women together at home: a grandmother, a mother and a daughter smiling, the daughter showing something on her phone to the others. Warm and affectionate."
+    }
+  ]
+}
