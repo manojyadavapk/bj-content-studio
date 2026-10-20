@@ -1,0 +1,52 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": "veo-3.1-fast-generate-preview"
+  },
+  "bone_compare": {
+    "ok": true,
+    "file": "out/W00-bsn/bone_compare.png",
+    "at": "2026-10-20 04:07 UTC"
+  },
+  "postmeno_woman": {
+    "ok": true,
+    "file": "out/W00-bsn/postmeno_woman.png",
+    "at": "2026-10-20 04:07 UTC"
+  },
+  "senile_couple": {
+    "ok": true,
+    "file": "out/W00-bsn/senile_couple.png",
+    "at": "2026-10-20 04:07 UTC"
+  },
+  "one_in_three": {
+    "ok": true,
+    "file": "out/W00-bsn/one_in_three.png",
+    "at": "2026-10-20 04:07 UTC"
+  },
+  "spine_fracture": {
+    "ok": true,
+    "file": "out/W00-bsn/spine_fracture.png",
+    "at": "2026-10-20 04:08 UTC"
+  },
+  "calcium_foods": {
+    "ok": true,
+    "file": "out/W00-bsn/calcium_foods.png",
+    "at": "2026-10-20 04:08 UTC"
+  },
+  "sunlight": {
+    "ok": true,
+    "file": "out/W00-bsn/sunlight.png",
+    "at": "2026-10-20 04:08 UTC"
+  },
+  "light_weights": {
+    "ok": true,
+    "file": "out/W00-bsn/light_weights.png",
+    "at": "2026-10-20 04:08 UTC"
+  },
+  "family_share": {
+    "ok": true,
+    "file": "out/W00-bsn/family_share.png",
+    "at": "2026-10-20 04:08 UTC"
+  }
+}
