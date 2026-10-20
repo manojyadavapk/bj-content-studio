@@ -5,31 +5,38 @@
     "video": "veo-3.1-fast-generate-preview"
   },
   "s1_hello": {
-    "ok": false,
-    "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "ok": true,
+    "file": "out/W00-cartoon-osteo/s1_hello.png",
+    "at": "2026-10-20 14:56 UTC"
   },
   "s2_honeycomb": {
-    "ok": false,
-    "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "ok": true,
+    "file": "out/W00-cartoon-osteo/s2_honeycomb.png",
+    "at": "2026-10-20 14:56 UTC"
   },
   "s3_two_teams": {
-    "ok": false,
-    "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "ok": true,
+    "file": "out/W00-cartoon-osteo/s3_two_teams.png",
+    "at": "2026-10-20 14:56 UTC"
   },
   "s4_imbalance": {
-    "ok": false,
-    "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "ok": true,
+    "file": "out/W00-cartoon-osteo/s4_imbalance.png",
+    "at": "2026-10-20 14:56 UTC"
   },
   "s5_fragile": {
-    "ok": false,
-    "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "ok": true,
+    "file": "out/W00-cartoon-osteo/s5_fragile.png",
+    "at": "2026-10-20 14:57 UTC"
   },
   "s6_prevention": {
-    "ok": false,
-    "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "ok": true,
+    "file": "out/W00-cartoon-osteo/s6_prevention.png",
+    "at": "2026-10-20 14:57 UTC"
   },
   "s7_strong": {
-    "ok": false,
-    "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "ok": true,
+    "file": "out/W00-cartoon-osteo/s7_strong.png",
+    "at": "2026-10-20 14:57 UTC"
   }
 }
