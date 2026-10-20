@@ -1,0 +1,12 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": "veo-3.1-fast-generate-preview"
+  },
+  "cover_stooped": {
+    "ok": true,
+    "file": "out/W00-carousel-spine/cover_stooped.png",
+    "at": "2026-10-20 09:40 UTC"
+  }
+}
