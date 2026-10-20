@@ -53,3 +53,4 @@
 - Padding never runs past a range end (that leaked an unwanted word once). End on a complete sentence.
 - He checks accuracy line by line before posting; his textbook source wins (Miller's). Prefers the ~60 s version.
 - Instagram via his Chrome: files must be <10 MB (two-pass x264 ~1.15 Mbps for 60 s), crop Original, show him the caption first, AI label ON, Facebook share OFF.
+- He has tools/Clip_Transcriber.html saved in his laptop's Downloads (same file as here): a local, upload-free transcriber (Whisper large-v3-turbo/small in the browser). He may paste its timestamped output instead of Claude transcribing.
