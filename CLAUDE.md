@@ -45,3 +45,11 @@
 - Dr Yadav authorised a CARTOON version of himself for educational videos (Reels/YouTube). It does not replace the poster rule above: realistic posters still use only his real photos.
 - Master references, made in ChatGPT and approved by him: `inputs/dr-cartoon-presenter.png` (waist-up, explaining) and `inputs/dr-cartoon-expressions.png` (7 expressions). Pass BOTH as `refs` for every cartoon scene and ask Gemini to keep the face, beard, hair and skin tone identical, in the same clean-outline cel-shaded style.
 - Every cartoon video carries an on-screen "AI-generated illustration" mark (NMC guidelines, 6 Oct 2026) and is education only: no offers, no booking calls to action.
+
+## REELS from his own clinic footage (canonical, Dr Yadav 20 Oct 2026; approved example: Bone-Strong Naari 60 s Reel)
+- Patient footage stays LOCAL. Transcribe in his Chrome with in-browser Whisper (transformers.js, onnx-community/whisper-large-v3-turbo q8, wasm) on xenova-whisper-web.static.hf.space; upload only an audio file. Never Gemini, never this repo. 30 s chunks can hallucinate repeats: redo bad chunks in 15 s pieces with language "hindi" and no_repeat_ngram_size 3.
+- Clean voice locally: ffmpeg highpass, arnndn (RNNoise std model from github richardpl/arnndn-models), afftdn, gate, EQ, de-esser, loudnorm -16 LUFS.
+- Build with tools/build_reel_example.py (args: JSON source ranges, output name): pauses shortened, 3:4 crop in 9:16 with navy title band and name/MS (Ortho)/MMC Reg. 2017073017 band, Marathi + English captions at y=1060, full-screen AI illustration cutaways (from a briefs/ week, slow zoom, "AI-generated illustration" mark), end card.
+- Padding never runs past a range end (that leaked an unwanted word once). End on a complete sentence.
+- He checks accuracy line by line before posting; his textbook source wins (Miller's). Prefers the ~60 s version.
+- Instagram via his Chrome: files must be <10 MB (two-pass x264 ~1.15 Mbps for 60 s), crop Original, show him the caption first, AI label ON, Facebook share OFF.
