@@ -8,5 +8,10 @@
     "ok": true,
     "file": "out/W00-yt-banner/yt_banner_bg.png",
     "at": "2026-10-21 14:26 UTC"
+  },
+  "yt_banner_bg_v2": {
+    "ok": true,
+    "file": "out/W00-yt-banner/yt_banner_bg_v2.png",
+    "at": "2026-10-21 14:34 UTC"
   }
 }
