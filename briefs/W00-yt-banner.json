@@ -1,0 +1,11 @@
+{
+  "week": "W00-yt-banner",
+  "images": [
+    {
+      "id": "yt_banner_bg",
+      "aspect": "16:9",
+      "size": "2K",
+      "prompt": "A wide, calm, premium background for a doctor's YouTube channel banner. One continuous full-bleed scene, no bands, borders or panels. Deep navy (#0D2C5C) blending smoothly into brand green (#62AA94) with soft pale mint (#E0F1EC) light. Very subtle, elegant abstract shapes suggesting healthy bone structure: a faint honeycomb trabecular lattice pattern and gentle flowing curves, mostly on the far right and far left edges, low contrast. The centre band is calm and uncluttered with soft even light so text and a portrait can be placed there. Soft bokeh glow, modern medical feel, warm and trustworthy. Absolutely no people, no faces, no text, no letters, no numbers, no logos, no icons."
+    }
+  ]
+}
