@@ -6,6 +6,12 @@
       "aspect": "16:9",
       "size": "2K",
       "prompt": "A wide, calm, premium background for a doctor's YouTube channel banner. One continuous full-bleed scene, no bands, borders or panels. Deep navy (#0D2C5C) blending smoothly into brand green (#62AA94) with soft pale mint (#E0F1EC) light. Very subtle, elegant abstract shapes suggesting healthy bone structure: a faint honeycomb trabecular lattice pattern and gentle flowing curves, mostly on the far right and far left edges, low contrast. The centre band is calm and uncluttered with soft even light so text and a portrait can be placed there. Soft bokeh glow, modern medical feel, warm and trustworthy. Absolutely no people, no faces, no text, no letters, no numbers, no logos, no icons."
+    },
+    {
+      "id": "yt_banner_bg_v2",
+      "aspect": "16:9",
+      "size": "2K",
+      "prompt": "A smooth, seamless wide background for a doctor's YouTube channel banner. A single soft diagonal colour gradient from deep navy (#0D2C5C) on the left, through brand green (#62AA94), to very pale mint (#E0F1EC) on the right, with gentle soft light. The whole image is one continuous gradient with NO horizontal band, NO stripe, NO rectangle, NO frame, NO panel, NO lighter strip across the middle. Very faint, low-contrast elegant line drawing of a bone's honeycomb inner lattice only at the far left edge and a faint curved joint outline only at the far right edge. Simple uncluttered background in the middle. Premium, calm, modern medical feel. No people, no faces, no text, no letters, no numbers, no logos."
     }
   ]
 }
