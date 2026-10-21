@@ -1,0 +1,12 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": "veo-3.1-fast-generate-preview"
+  },
+  "yt_banner_bg": {
+    "ok": true,
+    "file": "out/W00-yt-banner/yt_banner_bg.png",
+    "at": "2026-10-21 14:26 UTC"
+  }
+}
