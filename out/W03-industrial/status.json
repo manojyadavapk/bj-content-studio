@@ -1,0 +1,32 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": null
+  },
+  "chain_dupatta": {
+    "ok": true,
+    "file": "out/W03-industrial/chain_dupatta.png",
+    "at": "2026-10-28 18:34 UTC"
+  },
+  "press_hand": {
+    "ok": true,
+    "file": "out/W03-industrial/press_hand.png",
+    "at": "2026-10-28 18:34 UTC"
+  },
+  "press_safe": {
+    "ok": true,
+    "file": "out/W03-industrial/press_safe.png",
+    "at": "2026-10-28 18:34 UTC"
+  },
+  "first_aid": {
+    "ok": true,
+    "file": "out/W03-industrial/first_aid.png",
+    "at": "2026-10-28 18:35 UTC"
+  },
+  "cold_chain": {
+    "ok": true,
+    "file": "out/W03-industrial/cold_chain.png",
+    "at": "2026-10-28 18:35 UTC"
+  }
+}
