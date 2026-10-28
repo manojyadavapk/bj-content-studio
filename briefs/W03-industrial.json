@@ -1,0 +1,30 @@
+{
+  "week": "W03-industrial",
+  "images": [
+    {
+      "id": "chain_dupatta",
+      "aspect": "9:16",
+      "prompt": "Clean flat editorial illustration, clearly drawn (not a photo), soft shading. A small Indian workshop in Vasai: an Indian woman factory worker in a simple salwar kameez stands at a yarn twisting machine; her loose dupatta end is drifting dangerously close to an exposed moving roller chain and sprocket at the side of the machine. Her hands are on the machine table, she has not noticed the dupatta. Mood: a moment of danger just BEFORE an accident, no injury, no blood. Warm natural workshop light. Palette built from brand green #62AA94, deep navy #0D2C5C and pale mint #E0F1EC with warm neutrals. One continuous full-bleed scene, no bands, borders or panels. Simple uncluttered background at the top. No text, letters, numbers, signs or logos anywhere."
+    },
+    {
+      "id": "press_hand",
+      "aspect": "9:16",
+      "prompt": "Clean flat editorial illustration, clearly drawn (not a photo), soft shading. Inside a small Indian metal workshop: a mechanical power press machine seen from the side, a young Indian male worker reaching one bare hand toward the open die area under the ram to adjust a metal sheet, while the press is switched on. A sense of warning, the moment BEFORE an accident; no injury, no blood. Warm natural light. Palette built from brand green #62AA94, deep navy #0D2C5C and pale mint #E0F1EC with warm neutrals. One continuous full-bleed scene, no bands, borders or panels. Simple uncluttered background at the top. No text, letters, numbers, signs or logos anywhere."
+    },
+    {
+      "id": "press_safe",
+      "aspect": "9:16",
+      "prompt": "Clean flat editorial illustration, clearly drawn (not a photo), soft shading. The same kind of small Indian metal workshop, now safe: a mechanical power press fitted with a transparent safety guard enclosing the die area and a two-hand control station in front with two large mushroom push buttons spaced apart; an Indian male worker in fitted clothes, hair tied, with both hands pressing the two buttons, standing upright and calm. A supervisor in the background nods approvingly. Bright, reassuring mood. Palette built from brand green #62AA94, deep navy #0D2C5C and pale mint #E0F1EC with warm neutrals. One continuous full-bleed scene, no bands, borders or panels. Simple uncluttered background at the top. No text, letters, numbers, signs or logos anywhere."
+    },
+    {
+      "id": "first_aid",
+      "aspect": "9:16",
+      "prompt": "Clean flat editorial illustration, clearly drawn (not a photo), soft shading. In an Indian workshop, a calm Indian co-worker gives first aid: he presses a clean folded white cloth firmly on an injured worker's hand and holds the hand raised above heart level; the injury itself is completely hidden under the cloth, no blood visible. Behind them the machine's red stop button has been pressed and a woman colleague is calling for help on a mobile phone. A green first-aid box with a white cross is open on a bench. Calm, capable mood. Palette built from brand green #62AA94, deep navy #0D2C5C and pale mint #E0F1EC with warm neutrals. One continuous full-bleed scene, no bands, borders or panels. Simple uncluttered background at the top. No text, letters, numbers or logos anywhere."
+    },
+    {
+      "id": "cold_chain",
+      "aspect": "9:16",
+      "prompt": "Clean flat editorial illustration, clearly drawn, simple and friendly, on a soft pale mint #E0F1EC background. Three objects arranged from top to bottom with generous space between them: at the top a neatly folded damp white cloth bundle; in the middle a sealed clear zip-lock plastic bag containing that small cloth bundle; at the bottom the sealed bag resting inside a steel bowl filled with ice cubes and water. No body parts visible at all, only the cloth bundle. Accent colours brand green #62AA94 and deep navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. No text, letters, numbers, arrows or logos anywhere."
+    }
+  ]
+}
