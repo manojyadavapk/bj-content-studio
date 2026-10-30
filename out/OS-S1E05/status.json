@@ -1,0 +1,42 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": null
+  },
+  "hook_aunty": {
+    "ok": true,
+    "file": "out/OS-S1E05/hook_aunty.png",
+    "at": "2026-10-30 20:48 UTC"
+  },
+  "hook_bike": {
+    "ok": true,
+    "file": "out/OS-S1E05/hook_bike.png",
+    "at": "2026-10-30 20:48 UTC"
+  },
+  "foosh": {
+    "ok": true,
+    "file": "out/OS-S1E05/foosh.png",
+    "at": "2026-10-30 20:48 UTC"
+  },
+  "snuffbox_exam": {
+    "ok": true,
+    "file": "out/OS-S1E05/snuffbox_exam.png",
+    "at": "2026-10-30 20:48 UTC"
+  },
+  "decide_aunty": {
+    "ok": true,
+    "file": "out/OS-S1E05/decide_aunty.png",
+    "at": "2026-10-30 20:48 UTC"
+  },
+  "decide_driver": {
+    "ok": true,
+    "file": "out/OS-S1E05/decide_driver.png",
+    "at": "2026-10-30 20:48 UTC"
+  },
+  "bonesetter": {
+    "ok": true,
+    "file": "out/OS-S1E05/bonesetter.png",
+    "at": "2026-10-30 20:49 UTC"
+  }
+}
