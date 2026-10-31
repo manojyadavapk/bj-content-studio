@@ -22,7 +22,8 @@
 - Video jobs go in `"videos": [{"id", "prompt", "image": "out/<week>/<img>.png", "aspect": "9:16", "seconds": 8}]` and run on Veo 3.1 Fast. Each 8-second clip costs about $0.80, so keep it to 1–2 clips a week. A start image from the same brief is made first.
 - Veo garbles signboard and label text as the camera moves in. Use only the first 3–4 seconds of a push-in, or shots without close-up text.
 - Push ONE brief per commit and wait for its results. A second brief pushed while a run is in progress can be skipped; if that happens, touch the brief (add `"run": N`) and push again.
-- REAL PATIENT FOOTAGE NEVER GOES IN THIS PUBLIC REPO OR TO GEMINI. Edit clinic videos that show patients locally (ffmpeg in Claude's sandbox), and post them only after Dr Yadav confirms the patients' written consent.
+- REAL PATIENT FOOTAGE NEVER GOES IN THIS PUBLIC REPO. Edit clinic videos locally (ffmpeg in Claude's sandbox) first, and post them only after Dr Yadav confirms the patients' written consent.
+- Ruling, Dr Yadav 24 Oct 2026: consented patient footage MAY go to Gemini for edits Claude cannot do locally. Never via this public repo. Minimise credit: do every possible step locally, send only the few seconds that need the AI edit (trimmed, 720p, audio stripped and re-merged locally), one tight prompt with the face-lock clause.
 - POSTERS (Dr Yadav, 11 Oct 2026). Earlier attempts were rejected for two reasons: text boxes pasted on a picture looked incoherent, and Gemini-drawn posters CHANGED HIS FACIAL FEATURES. The approved method:
   1. Gemini makes ONLY a people-free, text-free background (e.g. out/W00-bg/diwali_bg_navy.png), with calm space on one side.
   2. Use his REAL photo, never an AI-drawn face. His photo set, exactly 3 photos (all real, white coat over a light-blue shirt):
