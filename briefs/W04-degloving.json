@@ -1,0 +1,25 @@
+{
+  "week": "W04-degloving",
+  "images": [
+    {
+      "id": "degloving_layers",
+      "aspect": "4:5",
+      "prompt": "Clean flat educational medical illustration, clearly drawn (not a photo), soft shading. Side view of a lower leg and foot of an Indian man. On the top of the foot and front of the ankle, the skin with its yellow fat layer is shown peeling back and away from the foot like a glove being pulled off, revealing the smooth white tendons and pink muscle underneath. Simple, calm, textbook style, no blood pools, not gory. Plain pale mint #E0F1EC background, accents in brand green #62AA94 and deep navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. Simple uncluttered background at the top. No text, letters, numbers, arrows with labels, or logos anywhere."
+    },
+    {
+      "id": "ilizarov_concept",
+      "aspect": "4:5",
+      "prompt": "Clean flat educational medical illustration, clearly drawn (not a photo), soft shading. A lower leg and foot of an Indian man held inside an Ilizarov circular external fixator: two or three stainless steel rings around the shin and one half-ring around the foot, joined by straight threaded rods, with thin tensioned wires passing through the leg bones from side to side and fixed to the rings. The front of the ankle is covered with a clean white dressing. Calm, textbook style, no blood. Plain pale mint #E0F1EC background, accents in brand green #62AA94 and deep navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. Simple uncluttered background at the top. No text, letters, numbers or logos anywhere."
+    },
+    {
+      "id": "no_home_remedy",
+      "aspect": "4:5",
+      "prompt": "Clean flat editorial illustration, clearly drawn (not a photo), soft shading. On a simple table: a small steel bowl of yellow turmeric powder, a small bottle of coconut oil and a few green leaves of a home remedy paste. A large bold red prohibition circle with a diagonal bar is drawn over all three items. Beside them, separately and NOT crossed out, a neat clean sterile gauze dressing pack and a roll of white bandage. Calm, clear, friendly style for patient education. Plain pale mint #E0F1EC background, accents in brand green #62AA94 and deep navy #0D2C5C. One continuous full-bleed scene, no bands, borders or panels. Simple uncluttered background at the top. No text, letters, numbers or logos anywhere."
+    },
+    {
+      "id": "hospital_early",
+      "aspect": "4:5",
+      "prompt": "Clean flat editorial illustration, clearly drawn (not a photo), soft shading. Evening, outside the emergency entrance of a small Indian city hospital: two family members quickly help a young Indian man with a simple white cloth wrapped around his injured foot towards the open glass doors, where a nurse in a white uniform waits with a wheelchair. An ambulance is parked at the side. Urgent but calm mood, no blood, no visible wound. Warm natural light. Palette built from brand green #62AA94, deep navy #0D2C5C and pale mint #E0F1EC with warm neutrals. One continuous full-bleed scene, no bands, borders or panels. Simple uncluttered background at the top. No text, letters, numbers, signboards or logos anywhere."
+    }
+  ]
+}
