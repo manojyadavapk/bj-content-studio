@@ -1,0 +1,27 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": null
+  },
+  "degloving_layers": {
+    "ok": true,
+    "file": "out/W04-degloving/degloving_layers.png",
+    "at": "2026-11-02 13:07 UTC"
+  },
+  "ilizarov_concept": {
+    "ok": true,
+    "file": "out/W04-degloving/ilizarov_concept.png",
+    "at": "2026-11-02 13:07 UTC"
+  },
+  "no_home_remedy": {
+    "ok": true,
+    "file": "out/W04-degloving/no_home_remedy.png",
+    "at": "2026-11-02 13:07 UTC"
+  },
+  "hospital_early": {
+    "ok": true,
+    "file": "out/W04-degloving/hospital_early.png",
+    "at": "2026-11-02 13:07 UTC"
+  }
+}
