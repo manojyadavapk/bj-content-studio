@@ -60,3 +60,11 @@
 - No on-image "AI-generated illustration" tag on clearly non-realistic illustrations (his call). Keep Instagram's own AI label switched on and the caption line "Illustrations are AI-generated."
 - Sunlight advice wording everywhere: 10–15 minutes daily, between 10 am and 2 pm.
 - Carousels are built from the website's condition pages and guides (repo bones-and-joints-website: content/conditions.json, guides/*_mr.pdf for Marathi, img/ for illustrations). Example builder: tools/build_carousel_spine_example.py. Last slide = free guide with QR to bonesnjointsclinic.com/g/<CODE> (verify it decodes).
+
+## TALKING-HEAD via lip-sync on his REAL footage (Dr Yadav, 3 Nov 2026) — the chosen method
+- Approved method for Dr Yadav speaking in a Reel: **Sync 3** (ElevenLabs flows, model `sync-lipsync-v3`, sync_mode `cut_off`) on a clip of HIS OWN real footage + new audio in his ElevenLabs cloned voice (voice 254q2GqljB4tv1hLDQjA, eleven_v4). Only the lips change; face, movement, room and light stay real. He judged it clearly more realistic than photo avatars (HeyGen Avatar 4, OmniHuman 1.5, Creatify Aurora were tested on inputs/dr-front.jpg and not chosen).
+- Source footage: his "me" stock — 2–3 min of him ALONE, front-facing, good light, talking naturally (he is sending it). Until then, him-only shots from his own reels (first test: Bone-Strong Naari 25–32 s + 41–44 s).
+- Prepare locally first: only shots with no patient in frame (check every frame), crop out old bands/captions, strip audio, 30 fps, ~1080 wide. Base clip at least as long as the voice line.
+- The stock footage and lip-synced clips are NOT committed to this public repo. Upload to ElevenLabs via creative_create_asset_upload with the PUT done from his Chrome (the sandbox proxy blocks elevenlabsusercontent.com); download results the same way and stage from his Downloads.
+- Cost ≈ ₹13 per second of lip-synced speech (10 s ≈ ₹130). Keep his on-camera parts short; X-rays/illustrations carry the rest.
+- Labels: on screen "AI lip-sync · AI-cloned voice", Instagram AI label ON, caption line about the AI-cloned voice. Never present it as an unedited recording.
