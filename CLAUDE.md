@@ -68,3 +68,8 @@
 - The stock footage and lip-synced clips are NOT committed to this public repo. Upload to ElevenLabs via creative_create_asset_upload with the PUT done from his Chrome (the sandbox proxy blocks elevenlabsusercontent.com); download results the same way and stage from his Downloads.
 - Cost ≈ ₹13 per second of lip-synced speech (10 s ≈ ₹130). Keep his on-camera parts short; X-rays/illustrations carry the rest.
 - Labels: on screen "AI lip-sync · AI-cloned voice", Instagram AI label ON, caption line about the AI-cloned voice. Never present it as an unedited recording.
+
+## Speak-along camera (Mode 2 reels, Dr Yadav 4 Nov 2026)
+- prompter/index.html is a phone page: front camera + his cloned-voice line audio. For each line it records, counts 3-2-1, plays the line, he speaks along, and the clip saves to his phone's Downloads as BJ_<pack>_L<NN>_take<N>.mp4/.webm.
+- Open it at https://raw.githack.com/manojyadavapk/bj-content-studio/main/prompter/index.html?pack=<pack>. Packs live in prompter/packs/<pack>/ (lines.json + NN.mp3). Echo cancellation is OFF so the clone voice is captured too; use it to align his clip to the clean clone audio, then replace the audio.
+- Mode 1 = Sync 3 on stock footage; Mode 2 = this page (his own lip movement, no Sync 3). Both use the cloned voice, so the "AI-cloned voice" label is needed on both.
