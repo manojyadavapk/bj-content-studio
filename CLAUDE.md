@@ -70,6 +70,6 @@
 - Labels: on screen "AI lip-sync · AI-cloned voice", Instagram AI label ON, caption line about the AI-cloned voice. Never present it as an unedited recording.
 
 ## Speak-along camera (Mode 2 reels, Dr Yadav 4 Nov 2026)
-- prompter/index.html is a phone page: front camera + his cloned-voice line audio. For each line it records, counts 3-2-1, plays the line, he speaks along, and the clip saves to his phone's Downloads as BJ_<pack>_L<NN>_take<N>.mp4/.webm.
-- Open it at https://raw.githack.com/manojyadavapk/bj-content-studio/main/prompter/index.html?pack=<pack>. Packs live in prompter/packs/<pack>/ (lines.json + NN.mp3). Echo cancellation is OFF so the clone voice is captured too; use it to align his clip to the clean clone audio, then replace the audio.
+- prompter/index.html is a phone page: front camera (mirrored, 9:16 1080x1920, 30 fps) + his cloned-voice line audio. For each line: Listen first, then Record, 3-2-1, he says the line HIMSELF (words light up at the clone's pace), taps Stop; the clip saves to his phone's Downloads as BJ_<pack>_L<NN>_take<N>.mp4/.webm.
+- Open it at https://raw.githack.com/manojyadavapk/bj-content-studio/main/prompter/index.html?pack=<pack>. Packs live in prompter/packs/<pack>/ (lines.json + NN.mp3). Then convert HIS recorded voice to the cloned voice with the ElevenLabs Voice Changer node (eleven_multilingual_sts_v2, voice 254q2GqljB4tv1hLDQjA): timing is kept, so lips stay in sync. Speaking along to a playing clone was tried on 4 Nov 2026 and he judged it out of sync; the 'Voice plays while recording' option remains but is off by default.
 - Mode 1 = Sync 3 on stock footage; Mode 2 = this page (his own lip movement, no Sync 3). Both use the cloned voice, so the "AI-cloned voice" label is needed on both.

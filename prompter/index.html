@@ -58,7 +58,8 @@ input[type=file]{display:none}
     <button id="next" aria-label="Next line">▶</button>
   </div>
   <div class="row">
-    <button id="hear" class="small">🔊 Listen only</button>
+    <button id="hear" class="small">🔊 Listen first</button>
+    <label class="btn small"><input type="checkbox" id="playrec" style="vertical-align:middle"> Voice plays while recording</label>
     <label class="btn small" for="files">Load lines from phone</label>
     <input type="file" id="files" accept="audio/*,.txt" multiple>
     <span id="takes" style="font-size:12px;color:var(--dim)"></span>
@@ -112,8 +113,15 @@ async function recordLine(){
   rec.ondataavailable=e=>e.data.size&&chunks.push(e.data);
   const done=new Promise(r=>rec.onstop=r);
   rec.start(); $('recdot').hidden=false; $('status').textContent='Get ready…';
-  try{await sleep(600);await countdown();$('status').textContent='Speak along now';await speak();await sleep(1200);}
-  catch(e){$('status').textContent='The voice could not play. Tap Record again.'}
+  try{await sleep(600);await countdown();
+    if($('playrec').checked){$('status').textContent='Speak along now';await speak();await sleep(1200);}
+    else{ // you speak it yourself; words light up at the cloned voice's pace as a guide; tap Stop when done
+      $('status').textContent='Say the line now. Tap ■ Stop when you finish.';$('rec').textContent='■ Stop';$('rec').classList.remove('busy');
+      const d=(voice.duration||4)*1000,t0=performance.now();let stopped=false;$('rec').onclick=()=>{stopped=true};
+      voice.muted=true;voice.currentTime=0;voice.play().then(()=>requestAnimationFrame(hl)).catch(()=>{});
+      while(!stopped&&performance.now()-t0<d+20000)await sleep(50);
+      voice.pause();voice.muted=false;$('rec').onclick=recordLine;await sleep(500);}
+  }catch(e){$('status').textContent='Something went wrong. Tap Record again.'}
   rec.stop(); await done; $('recdot').hidden=true;
   const ext=(rec.mimeType||type).includes('mp4')?'mp4':'webm';
   save(new Blob(chunks,{type:rec.mimeType||type||'video/webm'}),ext);
@@ -123,8 +131,8 @@ async function startCam(){
   try{
     stream=await navigator.mediaDevices.getUserMedia({
       video:{facingMode:'user',width:{ideal:3840},height:{ideal:2160},frameRate:{ideal:30}},
-      // echo cancellation OFF so the clone voice is also captured: it lets Claude line the clip up exactly
-      audio:{echoCancellation:false,noiseSuppression:false,autoGainControl:false}});
+      // your own voice is recorded; Claude turns it into the cloned voice with the same timing (ElevenLabs Voice Changer)
+      audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true}});
     $('cam').srcObject=stream; $('start').hidden=true;
     await new Promise(r=>$('cam').readyState>=2?r():$('cam').onloadeddata=r);
     // Record what you see: mirrored, portrait 9:16, 1080x1920, steady 30 fps (drawn on a canvas)
