@@ -75,7 +75,7 @@ input[type=file]{display:none}
 <script>
 (()=>{
 const $=id=>document.getElementById(id);
-let lines=[],i=0,stream=null,rec=null,chunks=[],busy=false,ac=null,takes={},packId='test';
+let lines=[],i=0,stream=null,outStream=null,rec=null,chunks=[],busy=false,ac=null,takes={},packId='test';
 const voice=new Audio(); voice.preload='auto';
 
 const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
@@ -106,9 +106,9 @@ function save(blob,ext){
   $('status').textContent=`Saved ${name} to Downloads. Do another take, or ▶ next line.`;render();
 }
 async function recordLine(){
-  if(busy||!stream)return; busy=true; $('rec').classList.add('busy'); $('rec').textContent='Recording…';
+  if(busy||!outStream)return; busy=true; $('rec').classList.add('busy'); $('rec').textContent='Recording…';
   const type=pickType(); chunks=[];
-  rec=new MediaRecorder(stream,type?{mimeType:type,videoBitsPerSecond:8000000,audioBitsPerSecond:128000}:{});
+  rec=new MediaRecorder(outStream,type?{mimeType:type,videoBitsPerSecond:8000000,audioBitsPerSecond:128000}:{});
   rec.ondataavailable=e=>e.data.size&&chunks.push(e.data);
   const done=new Promise(r=>rec.onstop=r);
   rec.start(); $('recdot').hidden=false; $('status').textContent='Get ready…';
@@ -122,10 +122,18 @@ async function recordLine(){
 async function startCam(){
   try{
     stream=await navigator.mediaDevices.getUserMedia({
-      video:{facingMode:'user',width:{ideal:1080},height:{ideal:1920},frameRate:{ideal:30}},
+      video:{facingMode:'user',width:{ideal:3840},height:{ideal:2160},frameRate:{ideal:30}},
       // echo cancellation OFF so the clone voice is also captured: it lets Claude line the clip up exactly
       audio:{echoCancellation:false,noiseSuppression:false,autoGainControl:false}});
     $('cam').srcObject=stream; $('start').hidden=true;
+    await new Promise(r=>$('cam').readyState>=2?r():$('cam').onloadeddata=r);
+    // Record what you see: mirrored, portrait 9:16, 1080x1920, steady 30 fps (drawn on a canvas)
+    const cv=document.createElement('canvas');cv.width=1080;cv.height=1920;const cx=cv.getContext('2d');
+    const draw=()=>{const v=$('cam'),vw=v.videoWidth,vh=v.videoHeight;if(vw&&vh){
+      let sw=vw,sh=vh; if(vw/vh>9/16){sw=vh*9/16}else{sh=vw*16/9}
+      const sx=(vw-sw)/2,sy=(vh-sh)/2; cx.setTransform(-1,0,0,1,1080,0); cx.drawImage(v,sx,sy,sw,sh,0,0,1080,1920)}};
+    setInterval(draw,1000/30);
+    outStream=new MediaStream([...cv.captureStream(30).getVideoTracks(),...stream.getAudioTracks()]);
     try{await navigator.wakeLock?.request('screen')}catch(e){}
     const s=stream.getVideoTracks()[0].getSettings(); $('status').textContent=`Camera ${s.width}×${s.height}. Look into the lens. Tap ● Record line.`;
   }catch(e){$('start').querySelector('p').textContent='Camera or microphone was blocked. In Chrome tap the lock icon next to the address, allow Camera and Microphone, then reload.'}
