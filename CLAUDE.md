@@ -9,6 +9,7 @@
 - To bring a file into Canva, use `upload-asset-from-url` with `https://raw.githubusercontent.com/manojyadavapk/bj-content-studio/main/out/<week>/<file>`.
 - Item ids must be unique within a week. Existing files are never remade, so to redo one, change its id.
 - Image prompts:
+  - Realistic scene images and Veo clips: append the "realism add-on" from STYLE.md (never for his face, the cartoon, anatomy or posters).
   - Never put text in the image; Canva adds all text.
   - Ask for "one continuous full-bleed scene, no bands, borders or panels". Asking for "empty sky in the top third" produced a visible seam line in the first test. Instead, say "simple uncluttered background at the top".
   - No exercise-position images. Exercise slides use the website illustrations (bonesnjointsclinic.com/img/PT-*.jpg).

@@ -47,3 +47,15 @@ Approved example: the knee-arthritis carousel (Design canvas "B&J Knee Arthritis
 - Each content slide: green number, a 1-line Hindi title with one accent word, English subtitle, 3-5 check rows, a "डॉक्टर की सलाह · Doctor's tip" box, and a bottom line with name and MMC Reg.
 - Facts from the knowledge pack; anything he adds that the pack lacks goes to to-knowledge the same day.
 - Post: guide link as the first comment; boost through Meta Ads Manager (Vasai, Virar, Palghar, 25+, no location expansion, awareness only).
+
+## AI scene images and video: realism add-on (Dr Yadav, 5 Nov 2026)
+Append this to every Gemini image prompt and every Veo video prompt for a REALISTIC scene (patients, clinic, daily life). Source: reel heyypriyank DeT2uHIuZUb.
+
+```
+Slow handheld camera movement with subtle natural camera shake. Visible pores, natural skin texture and subtle imperfections. Natural weight shifting, realistic body movement and physically accurate clothing motion. Subtle, natural facial expression (slight eye crinkle and cheek movement, no exaggerated smile). 35 mm lens look, natural depth of field, subtle lens distortion and a realistic focus transition. Indian people and setting, warm natural light. No text in the frame.
+```
+
+- For still images, drop the camera-movement and clothing-motion clauses and keep skin, expression and lens.
+- Do NOT use it for: Dr Yadav's face (real photos/footage only); the cartoon character (cel-shaded style stays); anatomy (BodyParts3D plates only); posters (Gemini backgrounds stay people-free).
+- Describe the clinical point physically: e.g. knee pain means "weight shifts off the painful right knee, hand on the railing". Check every clip for the correct side and anatomy.
+- Labels stay on: Instagram AI label, plus the caption line "Illustrations are AI-generated." The more realistic the clip, the more this matters.
