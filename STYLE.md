@@ -5,7 +5,10 @@ This is the house style for Bones & Joints Clinic social content (Dr Manoj Yadav
 ## Brand
 - Colours: navy #0D2C5C (text and bands), green #62AA94 and mint #E0F1EC (soft fills), gold #E6AD3C (chips, bars and highlights only, never as text on white). The accent word ink on white is deep green #2F7A64, which passes contrast; the secondary text is slate #4A6283.
 - Fonts: Mukta for Marathi and Hindi, Poppins for English. Playfair Display only for festival greetings.
-- Languages: social posts are Marathi (large) and English (small). YouTube titles are in Hindi. Reuse the knowledge pack's Marathi and Hindi wherever it exists.
+- Languages: carousels are Hindi (large) with English (small) below (Dr Yadav, 5 Nov 2026: Marathi speakers understand Hindi too, so Hindi reaches more viewers). YouTube titles are in Hindi. Reuse the knowledge pack's Hindi wherever it exists.
+- Never criticise treatments other doctors offer (e.g. keyhole washout, joint injections) (Dr Yadav, 5 Nov 2026). Warnings about quacks, chemists and shop-bought products are fine: say "taken from quacks" (नीम-हकीम / झोलाछाप).
+- His photo must look part of the slide, never a pasted rectangle: rembg cut-out, mint circle, soft green glow and shadow, light rim, faded shoulder edge, bottom crop hidden behind the navy band (as in the Navratri post). The script is tools/compose_carousel_photo.py.
+- Put the website guide link in the first comment after posting; the last slide says "Link in comments".
 - Every piece shows "Dr Manoj Yadav · MS (Ortho)" and "MMC Reg. 2017073017". On a Reel it appears in the first 2 seconds.
 
 ## Clinical facts
@@ -14,11 +17,11 @@ This is the house style for Bones & Joints Clinic social content (Dr Manoj Yadav
 
 ## Carousel (4:5, 1080x1350, 10 slides) — approved format, Nov 2026
 Template: templates/carousel/ (Design-canvas .dc.html files). First one: the knee arthritis carousel (Claude Design canvas "B&J Knee Arthritis Carousel").
-1. Cover: a big Marathi title with one accent word, an English subtitle, his REAL photo (inputs/, never AI-made), a row of 5 topic chips, "Swipe", and a navy band with name, MMC and handle.
+1. Cover: a big Hindi title with one accent word, an English subtitle, his REAL photo (inputs/, never AI-made), a row of 5 topic chips, "Swipe", and a navy band with name, MMC and handle.
 2. Slides 2-9 are one point each:
    - the "NN — 10" counter top left, and a giant ghost numeral in mint top right
-   - the green number, then a 2-line Marathi title with one accent word and a small English title
-   - 4-5 check rows (Marathi line plus a small English line)
+   - the green number, then a 1-2 line Hindi title with one accent word and a small English title
+   - 4-5 check rows (Hindi line plus a small English line)
    - a mint "डॉक्टरांचा सल्ला · Doctor's tip" box with a gold tag
    - a bold one-line takeaway at the bottom, plus name and MMC
 3. The red-flag slide is navy with gold alert icons. It carries every red flag from the pack, never stricter than the pack states it.
