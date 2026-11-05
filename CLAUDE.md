@@ -1,5 +1,7 @@
 # Working in bj-content-studio
 
+**Read STYLE.md first:** it is the house style for every post, carousel and Reel (brand, carousel format, hooks, Mode 1/Mode 2 talking head, where files live).
+
 - This repository is the hand-off desk between Claude and Gemini for the Bones & Joints Clinic Instagram.
 - To get images or voiceovers made, add or update `briefs/<week>.json` (format in the docstring of `scripts/generate.py`) and push it to `main`. The push starts the GitHub Action.
 - Wait about 2–5 minutes, then `git pull`. The results arrive in `out/<week>/`, and `out/<week>/status.json` shows whether each item worked, with the error text if it failed.
