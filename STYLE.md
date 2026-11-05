@@ -39,3 +39,11 @@ Template: templates/carousel/ (Design-canvas .dc.html files). First one: the kne
 - "Me" stock footage: Downloads\BJ_Me_Footage\Stock_1080 on the laptop, never in this public repo.
 - Posted log: Drive "Aescora Sync / Clinical Social Media / B&J Social — Posted Log".
 - References are for studying style only; never reuse another creator's footage.
+
+## HOUSE STYLE: carousel (approved by Dr Yadav, 5 Nov 2026)
+Approved example: the knee-arthritis carousel (Design canvas "B&J Knee Arthritis Carousel", copy in templates/carousel/). Build every condition carousel this way:
+- 4:5 (1080x1350), white slides with a big faint slide number, one navy warning slide, Hindi (large) with English (small) under every line.
+- Order: cover (his blended real photo, 5 chips, "Swipe") → who gets it (risk factors only: age, weight, sex) → signs (the history and symptoms) → myths and tests → treatment slides → avoid (quacks and shop products only, never other doctors' treatments) → injections/surgery when → red flags (navy, all of the pack's red flags) → free guide (blended photo, QR to the condition page, "Link in comments", both phones, awareness line).
+- Each content slide: green number, a 1-line Hindi title with one accent word, English subtitle, 3-5 check rows, a "डॉक्टर की सलाह · Doctor's tip" box, and a bottom line with name and MMC Reg.
+- Facts from the knowledge pack; anything he adds that the pack lacks goes to to-knowledge the same day.
+- Post: guide link as the first comment; boost through Meta Ads Manager (Vasai, Virar, Palghar, 25+, no location expansion, awareness only).
