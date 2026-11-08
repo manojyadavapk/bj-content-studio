@@ -1,0 +1,12 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Paste to save</title>
+<style>body{font-family:sans-serif;background:#111;color:#eee;margin:20px}#s{font-size:22px}img{max-height:60vh;display:block;margin-top:12px}</style></head>
+<body><div id="s">Press Ctrl+V to paste an image; it is saved to Downloads.</div><img id="i">
+<script>
+// 3D Studio helper: saves a pasted image under ?name= (no upload anywhere; the file stays on this computer)
+const name=new URLSearchParams(location.search).get('name')||'pasted.png';
+document.addEventListener('paste',e=>{const it=[...e.clipboardData.items].find(x=>x.type.startsWith('image/'));
+ if(!it){document.getElementById('s').textContent='No image on clipboard';return}
+ const f=it.getAsFile(); const u=URL.createObjectURL(f); document.getElementById('i').src=u;
+ const a=document.createElement('a'); a.href=u; a.download=name; document.body.appendChild(a); a.click(); a.remove();
+ document.getElementById('s').textContent='saved '+name+' '+f.size+' bytes';});
+</script></body></html>
