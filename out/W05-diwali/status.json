@@ -1,0 +1,17 @@
+{
+  "models": {
+    "image": "gemini-3.1-flash-image-preview",
+    "tts": "gemini-3.8-flash-tts",
+    "video": null
+  },
+  "diwali_status_bg_navy": {
+    "ok": true,
+    "file": "out/W05-diwali/diwali_status_bg_navy.png",
+    "at": "2026-11-08 17:40 UTC"
+  },
+  "diwali_status_bg_maroon": {
+    "ok": true,
+    "file": "out/W05-diwali/diwali_status_bg_maroon.png",
+    "at": "2026-11-08 17:40 UTC"
+  }
+}
